@@ -1,4 +1,4 @@
-# SCE
+
 
 ## Implementation of the simantaneous compression and encryption scheme. 
 
@@ -6,7 +6,18 @@
 
 Boost library version - 1.71<br />
 GCC - 9.4<br />
-zstd library version - 1.4.5
+zstd library version - 1.4.5<br />
+Optimization level - 03
+
+### System configuration:
+The code is tested for the following system configuration<br />
+Intel Core i5-8300H CPU<br />
+#CPUs: 8 Cores<br />
+Frequency 2.3 GHz <br />
+DRAM: 8 GB <br />
+L1:128 KB, L2:1 MB, L3:8 MB <br />
+Linux kernel: 5.15 <br />
+Operating System: Ubuntu 20.04
 
 ### Dataset preparation
 
