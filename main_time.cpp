@@ -1,18 +1,13 @@
 
 #include "chaotic_maps.h"
-
 #include <chrono>
 
 using namespace std;
-
 using boost::lexical_cast;
-
 using boost::numeric_cast;
 
 bool debug = 0;
-
 bool print = 0;
-
 bool testData = 1;
 
 
@@ -24,16 +19,14 @@ int main()
    
    // Update this variable to the location of the data you wish to compress
    string path;   
-   
-   
+  
    /* ---------------------------------------File read -----------------------------------------------------*/
    vector<int8_t> weight;
    std::ifstream myfile (path, std::ios_base::binary); //
    
    // Read the data and store in a vector
-   
-   
-   
+  
+
 
    /* ---------------------------------------Dummy Data Generation for POC -----------------------------------------------------*/
    // vector<int8_t> weight;
@@ -69,16 +62,12 @@ int main()
 
        while(mid!=64 and strt != 32)
        {
-       
-                   
           //Generation of the logistic map
           double newVal = r*old*(1-old);
           
           // Compare the value of the logistic map with the secret threshold
           if(newVal < 0.012 )
           { 
-          
-             	    
 	    // Swap the values
             char swap = weight.at(strt+i*64);
             weight.at(strt+i*64) = weight.at(mid+i*64);
@@ -114,18 +103,15 @@ int main()
       }
 	
 	
-	
-	
 	// 'strt' till 32 is already depleted
 	// shuffle the array between the location pointed by 'mid' and 63
         for(int it = run+1 ; it != n ; it++)
         { 
-               // Swapping based on the value of the logistic map
+                // Swapping based on the value of the logistic map
         	double newVal = r*old*(1-old);
         	int diff = 63 - it ;
         	int j = int(newVal*pow(10,4)) % (it-1 );
         	//save.push_back(j);
-        	
         	        	
         	// Swap the values   
 	        char swap = weight.at(it+i*64);
@@ -138,15 +124,12 @@ int main()
          
       // Increment 'i', to point to the next 64 bytes chunk
       i = i+1;
-      
     }   
      
      
     // We need to send the stringstream datatype for compression. We had a vector of int8_t datatype
     stringstream outData2;
-    
     int col =  weight.size();
-    
     for(int j=0; j< col ; j++)
     {
         outData2 << ((weight[j]));
@@ -159,26 +142,16 @@ int main()
     
     // Control the level of compression using the 'level' parameter
     boost::iostreams::zstd_params params;
-    //params.level = 5;
+    params.level = 5;
     out.push(boost::iostreams::zstd_compressor(params));
-    
     out.push(outData2);
-
     std::stringstream compressed;
-
     boost::iostreams::copy(out, compressed);
- 
     string dataCompressed = compressed.str();
-
     int row_new = (dataCompressed).size();
-    
-
     
     //----------------------- Encryption starts from here ----------------------------------//
     string arr1 = chaos(row_new, dataCompressed);
-    
-       
-       
     // arr1 is the final crypto-compressed data
     
     if(print == 1)
