@@ -47,63 +47,6 @@ arrWrap_ch* chirikov(int row, int col)
     return ary;
 }
 
-/*float sin_fast(float x) {
-    constexpr float PI = 3.14159265358f;
-    constexpr float B = 4.0f / PI;
-    constexpr float C = -4.0f / (PI * PI);
-    constexpr float P = 0.225f;
-
-    float y = B * x + C * x * (x < 0 ? -x : x);
-    return P * (y * (y < 0 ? -y : y) - y) + y;
-}
-
-
-arrWrap_ch* chirikov_fast(int row, int col)
-{
-//cout << "row " << row << " colc "<<col <<endl;
-    int size =0;
-    int tr=10;
-    if(col*row > 100)
-       size=col*row;
-    else
-       size=100;
-          
-    arrWrap_ch* ary = new arrWrap_ch[size];
-    int k = 10;
-    (ary)->arr[0] = 7;
-    (ary)->arr[1] = 8;
-    
-    float temp1,temp2;
-    for(int i=0; i<tr; i++){
-     for(int j=0; j<tr; j++){
-     float x = 2*3.14159*((ary+i*tr+j)->arr[1]);
-     float pi = 2*3.14159;
-          (ary+i*tr+j+1)->arr[0] = fmod((ary+i*tr+j)->arr[0] - k*sin_fast(x), pi) ;
-          (ary+i*tr+j+1)->arr[1] = fmod((ary+i*tr+j)->arr[1] + (ary+i*tr+j+1)->arr[0], pi);
-          temp1=(ary+i*tr+j+1)->arr[0];
-          temp2=(ary+i*tr+j+1)->arr[1];
-       }
-    }
-    
-    ary->arr[0]=temp1;
-    ary->arr[1]=temp2;
-    
-    //This parameter acts as a key and decides degree of deviation in the image
-      
-    for(int i=0; i<row; i++){
-     for(int j=0; j<col; j++){
-     float x = 2*3.14159*((ary+i*col+j)->arr[1]);
-     float pi = 2*3.14159;
-          (ary+i*col+j+1)->arr[0] = fmod((ary+i*col+j)->arr[0] - k*sin_fast(x), pi) ;
-          (ary+i*col+j+1)->arr[1] = fmod((ary+i*col+j)->arr[1] + (ary+i*col+j+1)->arr[0], pi);
-          //cout << " i " << i << " j "<< j  << " " <<i*col+j+1 << endl;
-       }
-    }
-    //cout << " out " << endl;  
-    return ary;
-}*/
-
-
 
 
 
