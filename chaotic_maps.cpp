@@ -73,15 +73,7 @@ arrWrap_ch* arnoldCatMap(int row, int col)
     }  
     return ary;
 }
-	/*for row = 1 : rows % y
-		for col = 1 : columns % x
-			c = mod((2 * col) + row, N) + 1; % x coordinate
-			r = mod(col + row, N) + 1; % y coordinate
-            c 
-			% Move the pixel.  Note indexes are (row, column) = (y, x) NOT (x, y)!
-			currentScrambledImage(row, col, :) = oldScrambledImage(r, c, :);
-		end
-	end*/
+	
 	
 arrWrap_ch* henonMap(int row, int col,int dim)
 {
