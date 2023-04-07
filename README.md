@@ -32,4 +32,4 @@ The code is tested for images, pretrained and quantized neural network models an
 8. Numerically generated ECG signal - https://www.kaggle.com/datasets/ahmadsaeed1007/ecg-signal
 
 ### Execution
-Update the 'fileName' variable in the 'main_time.cpp' file. The variable indictes the location of the dataset.
+Update the 'fileName' variable in the 'main_time.cpp' file. The variable indictes the path of the dataset in the system. Compile the main_time file. Simply execute ./main_time to run the code.
