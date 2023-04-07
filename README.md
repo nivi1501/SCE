@@ -31,4 +31,5 @@ The code is tested for images, pretrained and quantized neural network models an
 7. Medical cost personal datasets - https://www.kaggle.com/datasets/mirichoi0218/insurance 
 8. Numerically generated ECG signal - https://www.kaggle.com/datasets/ahmadsaeed1007/ecg-signal
 
-
+### Execution
+Update the 'fileName' variable in the 'main_time.cpp' file. The variable indictes the location of the dataset.
