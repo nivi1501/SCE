@@ -1,0 +1,1001 @@
+TransactionID,ProductCategory,Price,Discount,Quantity,StoreLocation,TransactionTime
+1,Groceries,317.67,0.0,8,Chicago,2023-01-01 00:00:00
+2,Groceries,486.5,0.0,1,Houston,2023-01-01 01:00:00
+3,Electronics,258.62,0.0,3,Phoenix,2023-01-01 02:00:00
+4,Clothing,376.48,0.0,9,Phoenix,2023-01-01 03:00:00
+5,Groceries,297.91,0.0,5,Chicago,2023-01-01 04:00:00
+6,Electronics,295.58,0.0,2,New York,2023-01-01 05:00:00
+7,Clothing,238.94,20.0,1,Los Angeles,2023-01-01 06:00:00
+8,Electronics,488.48,15.0,7,Chicago,2023-01-01 07:00:00
+9,Electronics,394.52,0.0,8,Houston,2023-01-01 08:00:00
+10,Electronics,43.77,5.0,5,Los Angeles,2023-01-01 09:00:00
+11,Toys,230.2,5.0,8,New York,2023-01-01 10:00:00
+12,Toys,373.61,0.0,3,Phoenix,2023-01-01 11:00:00
+13,Furniture,326.83,10.0,8,Phoenix,2023-01-01 12:00:00
+14,Electronics,209.96,0.0,3,Chicago,2023-01-01 13:00:00
+15,Groceries,245.88,0.0,3,Los Angeles,2023-01-01 14:00:00
+16,Clothing,437.78,0.0,3,Los Angeles,2023-01-01 15:00:00
+17,Groceries,101.33,0.0,6,New York,2023-01-01 16:00:00
+18,Clothing,336.67,5.0,2,Chicago,2023-01-01 17:00:00
+19,Groceries,349.29,15.0,5,New York,2023-01-01 18:00:00
+20,Groceries,207.66,10.0,7,Los Angeles,2023-01-01 19:00:00
+21,Electronics,297.3,0.0,4,Houston,2023-01-01 20:00:00
+22,Clothing,147.0,0.0,1,New York,2023-01-01 21:00:00
+23,Electronics,392.66,0.0,7,Houston,2023-01-01 22:00:00
+24,Furniture,192.45,0.0,2,Chicago,2023-01-01 23:00:00
+25,Furniture,419.38,20.0,9,Phoenix,2023-01-02 00:00:00
+26,Electronics,112.16,0.0,1,Houston,2023-01-02 01:00:00
+27,Electronics,119.89,0.0,4,Houston,2023-01-02 02:00:00
+28,Clothing,18.43,0.0,4,New York,2023-01-02 03:00:00
+29,Electronics,334.98,5.0,4,Los Angeles,2023-01-02 04:00:00
+30,Electronics,271.25,10.0,6,Phoenix,2023-01-02 05:00:00
+31,Electronics,153.9,0.0,2,Houston,2023-01-02 06:00:00
+32,Furniture,388.78,15.0,9,Los Angeles,2023-01-02 07:00:00
+33,Clothing,142.45,10.0,9,New York,2023-01-02 08:00:00
+34,Electronics,265.52,5.0,3,Chicago,2023-01-02 09:00:00
+35,Furniture,385.65,15.0,6,Chicago,2023-01-02 10:00:00
+36,Groceries,124.41,20.0,6,Chicago,2023-01-02 11:00:00
+37,Electronics,143.27,0.0,9,Los Angeles,2023-01-02 12:00:00
+38,Electronics,474.55,5.0,4,Houston,2023-01-02 13:00:00
+39,Electronics,270.23,0.0,8,Houston,2023-01-02 14:00:00
+40,Electronics,144.02,15.0,3,Phoenix,2023-01-02 15:00:00
+41,Furniture,491.28,15.0,1,Houston,2023-01-02 16:00:00
+42,Clothing,113.23,5.0,7,New York,2023-01-02 17:00:00
+43,Toys,240.28,0.0,1,Chicago,2023-01-02 18:00:00
+44,Furniture,282.52,0.0,4,Houston,2023-01-02 19:00:00
+45,Furniture,267.48,5.0,4,Chicago,2023-01-02 20:00:00
+46,Clothing,49.99,0.0,1,Los Angeles,2023-01-02 21:00:00
+47,Furniture,104.35,5.0,8,Chicago,2023-01-02 22:00:00
+48,Electronics,113.44,0.0,9,New York,2023-01-02 23:00:00
+49,Clothing,92.59,15.0,5,Chicago,2023-01-03 00:00:00
+50,Furniture,231.99,0.0,3,Houston,2023-01-03 01:00:00
+51,Groceries,228.21,10.0,7,Chicago,2023-01-03 02:00:00
+52,Clothing,271.41,0.0,3,Los Angeles,2023-01-03 03:00:00
+53,Groceries,130.19,0.0,3,New York,2023-01-03 04:00:00
+54,Furniture,439.25,15.0,1,Phoenix,2023-01-03 05:00:00
+55,Furniture,465.22,0.0,3,Phoenix,2023-01-03 06:00:00
+56,Furniture,337.86,5.0,7,New York,2023-01-03 07:00:00
+57,Furniture,223.38,0.0,3,Los Angeles,2023-01-03 08:00:00
+58,Groceries,313.36,15.0,9,Los Angeles,2023-01-03 09:00:00
+59,Clothing,85.61,0.0,5,New York,2023-01-03 10:00:00
+60,Groceries,139.3,0.0,5,Los Angeles,2023-01-03 11:00:00
+61,Furniture,227.03,0.0,1,New York,2023-01-03 12:00:00
+62,Groceries,166.18,0.0,9,New York,2023-01-03 13:00:00
+63,Furniture,57.93,0.0,1,Houston,2023-01-03 14:00:00
+64,Furniture,219.6,0.0,9,Los Angeles,2023-01-03 15:00:00
+65,Electronics,187.23,5.0,7,Chicago,2023-01-03 16:00:00
+66,Electronics,49.69,0.0,2,New York,2023-01-03 17:00:00
+67,Clothing,97.72,15.0,3,Los Angeles,2023-01-03 18:00:00
+68,Toys,350.51,15.0,3,Phoenix,2023-01-03 19:00:00
+69,Clothing,57.26,0.0,8,Los Angeles,2023-01-03 20:00:00
+70,Furniture,257.71,15.0,5,Chicago,2023-01-03 21:00:00
+71,Electronics,454.92,0.0,7,New York,2023-01-03 22:00:00
+72,Furniture,147.95,0.0,6,Houston,2023-01-03 23:00:00
+73,Furniture,152.87,0.0,3,Houston,2023-01-04 00:00:00
+74,Clothing,112.65,0.0,5,New York,2023-01-04 01:00:00
+75,Electronics,216.73,0.0,8,New York,2023-01-04 02:00:00
+76,Clothing,414.19,20.0,4,Los Angeles,2023-01-04 03:00:00
+77,Clothing,264.85,0.0,6,Phoenix,2023-01-04 04:00:00
+78,Electronics,31.26,5.0,6,Phoenix,2023-01-04 05:00:00
+79,Electronics,238.92,15.0,8,New York,2023-01-04 06:00:00
+80,Toys,252.61,0.0,5,Chicago,2023-01-04 07:00:00
+81,Clothing,359.21,5.0,2,Phoenix,2023-01-04 08:00:00
+82,Electronics,134.67,0.0,3,Los Angeles,2023-01-04 09:00:00
+83,Clothing,290.99,0.0,3,Los Angeles,2023-01-04 10:00:00
+84,Groceries,336.24,10.0,7,New York,2023-01-04 11:00:00
+85,Furniture,76.1,15.0,5,Los Angeles,2023-01-04 12:00:00
+86,Electronics,441.45,15.0,9,New York,2023-01-04 13:00:00
+87,Furniture,54.96,0.0,2,New York,2023-01-04 14:00:00
+88,Electronics,56.47,0.0,7,Chicago,2023-01-04 15:00:00
+89,Electronics,374.73,0.0,9,Houston,2023-01-04 16:00:00
+90,Electronics,355.3,0.0,4,Chicago,2023-01-04 17:00:00
+91,Groceries,181.63,0.0,8,Los Angeles,2023-01-04 18:00:00
+92,Electronics,169.63,0.0,7,New York,2023-01-04 19:00:00
+93,Furniture,152.16,0.0,9,Phoenix,2023-01-04 20:00:00
+94,Toys,171.25,0.0,3,Los Angeles,2023-01-04 21:00:00
+95,Clothing,220.59,0.0,5,New York,2023-01-04 22:00:00
+96,Groceries,176.73,0.0,9,New York,2023-01-04 23:00:00
+97,Furniture,131.25,0.0,5,Los Angeles,2023-01-05 00:00:00
+98,Clothing,104.59,0.0,4,New York,2023-01-05 01:00:00
+99,Clothing,128.3,0.0,9,Los Angeles,2023-01-05 02:00:00
+100,Electronics,364.24,5.0,1,Chicago,2023-01-05 03:00:00
+101,Electronics,259.58,0.0,4,Los Angeles,2023-01-05 04:00:00
+102,Electronics,213.67,15.0,5,Chicago,2023-01-05 05:00:00
+103,Electronics,21.83,15.0,4,Houston,2023-01-05 06:00:00
+104,Electronics,374.56,0.0,1,Los Angeles,2023-01-05 07:00:00
+105,Toys,438.81,15.0,5,Chicago,2023-01-05 08:00:00
+106,Electronics,456.16,0.0,6,New York,2023-01-05 09:00:00
+107,Electronics,468.44,15.0,5,Los Angeles,2023-01-05 10:00:00
+108,Groceries,347.24,0.0,8,Houston,2023-01-05 11:00:00
+109,Toys,90.56,20.0,5,Houston,2023-01-05 12:00:00
+110,Electronics,406.08,0.0,1,Los Angeles,2023-01-05 13:00:00
+111,Clothing,274.5,0.0,9,Los Angeles,2023-01-05 14:00:00
+112,Furniture,99.07,5.0,7,Los Angeles,2023-01-05 15:00:00
+113,Groceries,378.5,0.0,7,Phoenix,2023-01-05 16:00:00
+114,Electronics,178.87,10.0,4,Houston,2023-01-05 17:00:00
+115,Electronics,379.45,0.0,3,New York,2023-01-05 18:00:00
+116,Clothing,379.32,0.0,5,Los Angeles,2023-01-05 19:00:00
+117,Groceries,265.44,0.0,3,Houston,2023-01-05 20:00:00
+118,Electronics,197.44,0.0,3,Phoenix,2023-01-05 21:00:00
+119,Groceries,399.12,20.0,6,Chicago,2023-01-05 22:00:00
+120,Groceries,178.1,0.0,6,Houston,2023-01-05 23:00:00
+121,Furniture,172.25,15.0,7,Chicago,2023-01-06 00:00:00
+122,Clothing,417.14,0.0,3,Phoenix,2023-01-06 01:00:00
+123,Clothing,49.08,5.0,7,New York,2023-01-06 02:00:00
+124,Furniture,144.25,0.0,4,Houston,2023-01-06 03:00:00
+125,Electronics,257.04,0.0,7,Phoenix,2023-01-06 04:00:00
+126,Electronics,202.22,0.0,4,Houston,2023-01-06 05:00:00
+127,Clothing,140.58,20.0,3,Chicago,2023-01-06 06:00:00
+128,Electronics,188.6,10.0,4,Chicago,2023-01-06 07:00:00
+129,Electronics,464.9,20.0,1,Phoenix,2023-01-06 08:00:00
+130,Electronics,288.02,15.0,5,New York,2023-01-06 09:00:00
+131,Clothing,148.94,15.0,1,New York,2023-01-06 10:00:00
+132,Toys,70.46,5.0,4,Los Angeles,2023-01-06 11:00:00
+133,Electronics,287.5,0.0,5,Phoenix,2023-01-06 12:00:00
+134,Groceries,324.48,0.0,3,New York,2023-01-06 13:00:00
+135,Toys,476.15,0.0,1,New York,2023-01-06 14:00:00
+136,Groceries,144.84,0.0,2,New York,2023-01-06 15:00:00
+137,Groceries,336.77,0.0,6,Houston,2023-01-06 16:00:00
+138,Electronics,272.4,0.0,2,Los Angeles,2023-01-06 17:00:00
+139,Furniture,109.4,10.0,7,New York,2023-01-06 18:00:00
+140,Furniture,150.82,0.0,9,New York,2023-01-06 19:00:00
+141,Electronics,275.88,0.0,8,New York,2023-01-06 20:00:00
+142,Groceries,22.3,5.0,7,New York,2023-01-06 21:00:00
+143,Furniture,193.23,0.0,7,Houston,2023-01-06 22:00:00
+144,Clothing,425.05,0.0,9,Chicago,2023-01-06 23:00:00
+145,Furniture,380.57,0.0,5,Phoenix,2023-01-07 00:00:00
+146,Toys,327.46,0.0,4,Phoenix,2023-01-07 01:00:00
+147,Clothing,188.7,10.0,9,Chicago,2023-01-07 02:00:00
+148,Electronics,238.39,5.0,7,Los Angeles,2023-01-07 03:00:00
+149,Electronics,152.13,5.0,1,New York,2023-01-07 04:00:00
+150,Clothing,464.6,0.0,7,Los Angeles,2023-01-07 05:00:00
+151,Electronics,380.09,20.0,2,Phoenix,2023-01-07 06:00:00
+152,Groceries,119.88,0.0,3,Houston,2023-01-07 07:00:00
+153,Furniture,167.86,0.0,8,Chicago,2023-01-07 08:00:00
+154,Groceries,77.54,0.0,9,Chicago,2023-01-07 09:00:00
+155,Groceries,352.7,5.0,5,New York,2023-01-07 10:00:00
+156,Furniture,123.14,15.0,9,New York,2023-01-07 11:00:00
+157,Groceries,100.98,0.0,8,New York,2023-01-07 12:00:00
+158,Electronics,230.99,10.0,1,Phoenix,2023-01-07 13:00:00
+159,Toys,412.36,0.0,8,Los Angeles,2023-01-07 14:00:00
+160,Clothing,163.59,0.0,7,New York,2023-01-07 15:00:00
+161,Electronics,398.33,15.0,8,Phoenix,2023-01-07 16:00:00
+162,Groceries,183.09,5.0,4,New York,2023-01-07 17:00:00
+163,Furniture,109.26,0.0,7,Phoenix,2023-01-07 18:00:00
+164,Electronics,356.33,0.0,2,New York,2023-01-07 19:00:00
+165,Toys,181.32,20.0,9,Houston,2023-01-07 20:00:00
+166,Groceries,244.03,20.0,9,Chicago,2023-01-07 21:00:00
+167,Electronics,129.16,0.0,3,New York,2023-01-07 22:00:00
+168,Furniture,429.28,0.0,3,Los Angeles,2023-01-07 23:00:00
+169,Clothing,378.9,0.0,8,Houston,2023-01-08 00:00:00
+170,Electronics,158.25,20.0,2,Houston,2023-01-08 01:00:00
+171,Groceries,47.03,0.0,7,Los Angeles,2023-01-08 02:00:00
+172,Clothing,172.74,0.0,6,Phoenix,2023-01-08 03:00:00
+173,Groceries,84.1,0.0,5,Phoenix,2023-01-08 04:00:00
+174,Furniture,370.45,10.0,1,Chicago,2023-01-08 05:00:00
+175,Electronics,129.33,5.0,8,Chicago,2023-01-08 06:00:00
+176,Groceries,242.06,20.0,2,Chicago,2023-01-08 07:00:00
+177,Furniture,460.44,0.0,7,New York,2023-01-08 08:00:00
+178,Clothing,498.43,0.0,1,Chicago,2023-01-08 09:00:00
+179,Furniture,83.69,0.0,8,Phoenix,2023-01-08 10:00:00
+180,Electronics,385.67,10.0,9,Chicago,2023-01-08 11:00:00
+181,Electronics,272.11,20.0,4,New York,2023-01-08 12:00:00
+182,Electronics,95.23,10.0,8,Chicago,2023-01-08 13:00:00
+183,Electronics,206.64,15.0,4,Chicago,2023-01-08 14:00:00
+184,Electronics,344.62,10.0,3,Phoenix,2023-01-08 15:00:00
+185,Clothing,77.6,0.0,4,Los Angeles,2023-01-08 16:00:00
+186,Groceries,55.31,0.0,3,Chicago,2023-01-08 17:00:00
+187,Groceries,201.78,0.0,6,Los Angeles,2023-01-08 18:00:00
+188,Clothing,166.63,20.0,7,Houston,2023-01-08 19:00:00
+189,Groceries,341.59,5.0,7,New York,2023-01-08 20:00:00
+190,Furniture,210.6,0.0,9,Chicago,2023-01-08 21:00:00
+191,Clothing,462.84,10.0,3,New York,2023-01-08 22:00:00
+192,Toys,330.25,0.0,4,Los Angeles,2023-01-08 23:00:00
+193,Clothing,251.76,0.0,6,Phoenix,2023-01-09 00:00:00
+194,Groceries,361.73,0.0,2,Chicago,2023-01-09 01:00:00
+195,Electronics,264.0,0.0,2,Phoenix,2023-01-09 02:00:00
+196,Furniture,486.72,0.0,8,Phoenix,2023-01-09 03:00:00
+197,Clothing,284.97,20.0,3,Los Angeles,2023-01-09 04:00:00
+198,Electronics,408.82,0.0,4,Houston,2023-01-09 05:00:00
+199,Clothing,284.77,0.0,3,Houston,2023-01-09 06:00:00
+200,Groceries,465.68,0.0,6,New York,2023-01-09 07:00:00
+201,Electronics,301.03,0.0,9,New York,2023-01-09 08:00:00
+202,Clothing,25.65,0.0,7,New York,2023-01-09 09:00:00
+203,Groceries,49.57,20.0,5,Chicago,2023-01-09 10:00:00
+204,Toys,274.49,15.0,3,Los Angeles,2023-01-09 11:00:00
+205,Groceries,493.13,0.0,7,Chicago,2023-01-09 12:00:00
+206,Furniture,314.08,0.0,6,Chicago,2023-01-09 13:00:00
+207,Electronics,19.36,0.0,4,Chicago,2023-01-09 14:00:00
+208,Groceries,437.16,10.0,4,New York,2023-01-09 15:00:00
+209,Electronics,177.51,5.0,6,New York,2023-01-09 16:00:00
+210,Clothing,194.4,0.0,3,Los Angeles,2023-01-09 17:00:00
+211,Groceries,270.73,0.0,4,Los Angeles,2023-01-09 18:00:00
+212,Furniture,463.3,0.0,5,Chicago,2023-01-09 19:00:00
+213,Groceries,440.29,0.0,6,Phoenix,2023-01-09 20:00:00
+214,Groceries,7.54,0.0,1,Phoenix,2023-01-09 21:00:00
+215,Electronics,465.43,0.0,2,Los Angeles,2023-01-09 22:00:00
+216,Electronics,12.79,5.0,6,Los Angeles,2023-01-09 23:00:00
+217,Clothing,19.85,15.0,1,Phoenix,2023-01-10 00:00:00
+218,Clothing,341.48,0.0,3,Los Angeles,2023-01-10 01:00:00
+219,Furniture,151.64,15.0,2,Los Angeles,2023-01-10 02:00:00
+220,Groceries,94.55,15.0,1,Phoenix,2023-01-10 03:00:00
+221,Clothing,94.05,5.0,5,New York,2023-01-10 04:00:00
+222,Electronics,447.42,0.0,9,Chicago,2023-01-10 05:00:00
+223,Furniture,383.62,0.0,5,Houston,2023-01-10 06:00:00
+224,Clothing,266.04,5.0,5,New York,2023-01-10 07:00:00
+225,Groceries,372.63,0.0,2,Houston,2023-01-10 08:00:00
+226,Groceries,10.89,0.0,3,New York,2023-01-10 09:00:00
+227,Groceries,99.35,15.0,8,Los Angeles,2023-01-10 10:00:00
+228,Electronics,25.77,0.0,7,Los Angeles,2023-01-10 11:00:00
+229,Electronics,314.44,0.0,7,Los Angeles,2023-01-10 12:00:00
+230,Clothing,180.67,0.0,4,Los Angeles,2023-01-10 13:00:00
+231,Groceries,420.27,5.0,3,New York,2023-01-10 14:00:00
+232,Toys,419.25,20.0,9,Los Angeles,2023-01-10 15:00:00
+233,Electronics,250.38,0.0,5,Los Angeles,2023-01-10 16:00:00
+234,Groceries,145.75,0.0,7,New York,2023-01-10 17:00:00
+235,Electronics,337.83,10.0,3,Chicago,2023-01-10 18:00:00
+236,Groceries,57.22,0.0,6,Phoenix,2023-01-10 19:00:00
+237,Groceries,151.44,0.0,9,Houston,2023-01-10 20:00:00
+238,Clothing,16.05,0.0,6,Phoenix,2023-01-10 21:00:00
+239,Toys,209.31,15.0,6,Houston,2023-01-10 22:00:00
+240,Electronics,423.54,10.0,5,Los Angeles,2023-01-10 23:00:00
+241,Electronics,278.53,0.0,1,Phoenix,2023-01-11 00:00:00
+242,Clothing,327.86,0.0,7,Phoenix,2023-01-11 01:00:00
+243,Electronics,473.96,10.0,5,Los Angeles,2023-01-11 02:00:00
+244,Furniture,326.69,0.0,7,Los Angeles,2023-01-11 03:00:00
+245,Furniture,340.74,0.0,2,Phoenix,2023-01-11 04:00:00
+246,Electronics,187.36,0.0,2,Los Angeles,2023-01-11 05:00:00
+247,Furniture,334.74,0.0,5,Chicago,2023-01-11 06:00:00
+248,Groceries,25.58,0.0,3,Houston,2023-01-11 07:00:00
+249,Electronics,454.27,0.0,5,Phoenix,2023-01-11 08:00:00
+250,Clothing,352.29,5.0,8,Houston,2023-01-11 09:00:00
+251,Furniture,180.31,0.0,5,Los Angeles,2023-01-11 10:00:00
+252,Toys,279.04,0.0,4,Phoenix,2023-01-11 11:00:00
+253,Electronics,21.35,15.0,8,New York,2023-01-11 12:00:00
+254,Clothing,355.64,0.0,9,Houston,2023-01-11 13:00:00
+255,Groceries,52.77,15.0,4,Phoenix,2023-01-11 14:00:00
+256,Groceries,185.79,15.0,3,New York,2023-01-11 15:00:00
+257,Furniture,497.82,0.0,8,Houston,2023-01-11 16:00:00
+258,Clothing,211.89,0.0,6,Los Angeles,2023-01-11 17:00:00
+259,Groceries,323.21,0.0,2,Phoenix,2023-01-11 18:00:00
+260,Clothing,129.36,0.0,4,Houston,2023-01-11 19:00:00
+261,Electronics,274.15,0.0,5,Houston,2023-01-11 20:00:00
+262,Groceries,291.86,0.0,1,Los Angeles,2023-01-11 21:00:00
+263,Clothing,284.58,10.0,8,Los Angeles,2023-01-11 22:00:00
+264,Toys,116.21,0.0,7,Los Angeles,2023-01-11 23:00:00
+265,Electronics,335.88,0.0,9,New York,2023-01-12 00:00:00
+266,Electronics,258.3,10.0,6,Phoenix,2023-01-12 01:00:00
+267,Groceries,424.84,20.0,9,Houston,2023-01-12 02:00:00
+268,Toys,48.46,0.0,9,New York,2023-01-12 03:00:00
+269,Electronics,214.81,0.0,7,Los Angeles,2023-01-12 04:00:00
+270,Furniture,225.13,0.0,5,Phoenix,2023-01-12 05:00:00
+271,Clothing,306.19,0.0,2,Chicago,2023-01-12 06:00:00
+272,Furniture,208.26,20.0,8,Chicago,2023-01-12 07:00:00
+273,Groceries,314.02,0.0,3,Phoenix,2023-01-12 08:00:00
+274,Clothing,469.82,15.0,7,New York,2023-01-12 09:00:00
+275,Groceries,142.64,0.0,8,Chicago,2023-01-12 10:00:00
+276,Groceries,252.91,10.0,5,Phoenix,2023-01-12 11:00:00
+277,Groceries,279.85,0.0,2,New York,2023-01-12 12:00:00
+278,Furniture,489.11,0.0,7,Houston,2023-01-12 13:00:00
+279,Clothing,70.17,0.0,9,Houston,2023-01-12 14:00:00
+280,Electronics,461.03,10.0,2,Phoenix,2023-01-12 15:00:00
+281,Furniture,409.95,5.0,7,Phoenix,2023-01-12 16:00:00
+282,Clothing,37.77,0.0,5,New York,2023-01-12 17:00:00
+283,Clothing,275.07,15.0,5,New York,2023-01-12 18:00:00
+284,Clothing,203.77,0.0,9,Houston,2023-01-12 19:00:00
+285,Clothing,396.69,0.0,5,Chicago,2023-01-12 20:00:00
+286,Furniture,461.32,5.0,7,Phoenix,2023-01-12 21:00:00
+287,Furniture,244.51,15.0,8,Chicago,2023-01-12 22:00:00
+288,Electronics,373.34,10.0,6,Chicago,2023-01-12 23:00:00
+289,Groceries,173.8,0.0,5,Houston,2023-01-13 00:00:00
+290,Groceries,402.72,0.0,7,Houston,2023-01-13 01:00:00
+291,Furniture,233.55,15.0,6,Los Angeles,2023-01-13 02:00:00
+292,Electronics,15.18,5.0,1,Los Angeles,2023-01-13 03:00:00
+293,Groceries,392.93,0.0,3,Houston,2023-01-13 04:00:00
+294,Furniture,463.91,5.0,5,Chicago,2023-01-13 05:00:00
+295,Electronics,223.27,0.0,2,Houston,2023-01-13 06:00:00
+296,Electronics,290.87,0.0,1,Phoenix,2023-01-13 07:00:00
+297,Groceries,488.03,20.0,8,Phoenix,2023-01-13 08:00:00
+298,Electronics,176.43,0.0,7,Phoenix,2023-01-13 09:00:00
+299,Groceries,192.72,0.0,6,Houston,2023-01-13 10:00:00
+300,Electronics,420.17,0.0,3,New York,2023-01-13 11:00:00
+301,Clothing,26.38,0.0,4,Los Angeles,2023-01-13 12:00:00
+302,Clothing,387.56,0.0,8,Los Angeles,2023-01-13 13:00:00
+303,Electronics,302.34,0.0,9,Chicago,2023-01-13 14:00:00
+304,Toys,392.13,5.0,9,Chicago,2023-01-13 15:00:00
+305,Electronics,243.58,0.0,4,Houston,2023-01-13 16:00:00
+306,Clothing,367.53,0.0,7,New York,2023-01-13 17:00:00
+307,Electronics,488.18,20.0,5,Houston,2023-01-13 18:00:00
+308,Furniture,112.36,0.0,2,Houston,2023-01-13 19:00:00
+309,Clothing,168.73,0.0,8,Los Angeles,2023-01-13 20:00:00
+310,Electronics,182.11,5.0,6,Los Angeles,2023-01-13 21:00:00
+311,Groceries,383.74,20.0,6,Los Angeles,2023-01-13 22:00:00
+312,Groceries,23.1,0.0,6,Phoenix,2023-01-13 23:00:00
+313,Clothing,342.47,0.0,6,Houston,2023-01-14 00:00:00
+314,Electronics,456.25,15.0,9,Chicago,2023-01-14 01:00:00
+315,Groceries,347.68,0.0,3,Los Angeles,2023-01-14 02:00:00
+316,Furniture,6.11,15.0,9,New York,2023-01-14 03:00:00
+317,Toys,106.53,0.0,7,Chicago,2023-01-14 04:00:00
+318,Electronics,242.18,5.0,4,Houston,2023-01-14 05:00:00
+319,Toys,460.11,0.0,8,Los Angeles,2023-01-14 06:00:00
+320,Toys,77.05,15.0,5,Houston,2023-01-14 07:00:00
+321,Electronics,496.01,10.0,6,Houston,2023-01-14 08:00:00
+322,Clothing,450.96,0.0,3,Phoenix,2023-01-14 09:00:00
+323,Toys,158.08,10.0,4,Chicago,2023-01-14 10:00:00
+324,Groceries,217.97,0.0,9,Los Angeles,2023-01-14 11:00:00
+325,Electronics,286.63,10.0,3,New York,2023-01-14 12:00:00
+326,Electronics,166.4,20.0,4,Houston,2023-01-14 13:00:00
+327,Clothing,390.11,10.0,2,Chicago,2023-01-14 14:00:00
+328,Toys,434.12,20.0,1,New York,2023-01-14 15:00:00
+329,Clothing,286.61,0.0,2,New York,2023-01-14 16:00:00
+330,Clothing,307.93,15.0,5,Los Angeles,2023-01-14 17:00:00
+331,Furniture,490.66,0.0,2,Chicago,2023-01-14 18:00:00
+332,Groceries,367.62,0.0,9,New York,2023-01-14 19:00:00
+333,Electronics,66.59,10.0,3,Los Angeles,2023-01-14 20:00:00
+334,Clothing,247.47,15.0,1,New York,2023-01-14 21:00:00
+335,Clothing,170.84,0.0,5,Houston,2023-01-14 22:00:00
+336,Clothing,61.7,5.0,5,Chicago,2023-01-14 23:00:00
+337,Furniture,205.08,10.0,3,Houston,2023-01-15 00:00:00
+338,Toys,303.7,0.0,1,Chicago,2023-01-15 01:00:00
+339,Electronics,172.82,10.0,9,New York,2023-01-15 02:00:00
+340,Electronics,89.05,0.0,6,Phoenix,2023-01-15 03:00:00
+341,Electronics,87.69,0.0,6,New York,2023-01-15 04:00:00
+342,Clothing,177.09,10.0,1,Los Angeles,2023-01-15 05:00:00
+343,Electronics,55.55,0.0,7,New York,2023-01-15 06:00:00
+344,Electronics,108.13,0.0,2,New York,2023-01-15 07:00:00
+345,Furniture,23.67,0.0,7,Los Angeles,2023-01-15 08:00:00
+346,Clothing,361.55,0.0,8,Houston,2023-01-15 09:00:00
+347,Electronics,489.05,15.0,4,Phoenix,2023-01-15 10:00:00
+348,Electronics,428.12,10.0,4,Phoenix,2023-01-15 11:00:00
+349,Electronics,489.2,0.0,1,Chicago,2023-01-15 12:00:00
+350,Electronics,381.16,10.0,4,Los Angeles,2023-01-15 13:00:00
+351,Furniture,78.29,0.0,1,Houston,2023-01-15 14:00:00
+352,Toys,111.09,0.0,1,Chicago,2023-01-15 15:00:00
+353,Electronics,107.52,20.0,4,Phoenix,2023-01-15 16:00:00
+354,Electronics,280.16,10.0,9,Chicago,2023-01-15 17:00:00
+355,Electronics,478.99,0.0,7,Los Angeles,2023-01-15 18:00:00
+356,Furniture,57.63,0.0,5,New York,2023-01-15 19:00:00
+357,Electronics,111.94,5.0,4,Houston,2023-01-15 20:00:00
+358,Furniture,471.03,0.0,7,Phoenix,2023-01-15 21:00:00
+359,Furniture,52.69,0.0,4,Phoenix,2023-01-15 22:00:00
+360,Groceries,82.37,0.0,7,Phoenix,2023-01-15 23:00:00
+361,Electronics,74.68,10.0,8,Phoenix,2023-01-16 00:00:00
+362,Electronics,248.9,0.0,6,Los Angeles,2023-01-16 01:00:00
+363,Electronics,445.3,0.0,9,New York,2023-01-16 02:00:00
+364,Groceries,278.54,5.0,1,Chicago,2023-01-16 03:00:00
+365,Clothing,209.49,0.0,3,New York,2023-01-16 04:00:00
+366,Clothing,319.46,0.0,2,Los Angeles,2023-01-16 05:00:00
+367,Groceries,337.4,15.0,5,New York,2023-01-16 06:00:00
+368,Electronics,187.53,0.0,9,Phoenix,2023-01-16 07:00:00
+369,Groceries,253.06,10.0,3,Chicago,2023-01-16 08:00:00
+370,Furniture,309.45,20.0,1,Phoenix,2023-01-16 09:00:00
+371,Toys,449.76,0.0,7,New York,2023-01-16 10:00:00
+372,Clothing,438.91,0.0,8,Houston,2023-01-16 11:00:00
+373,Clothing,157.02,10.0,4,Houston,2023-01-16 12:00:00
+374,Electronics,132.58,5.0,1,Phoenix,2023-01-16 13:00:00
+375,Electronics,81.08,0.0,1,Chicago,2023-01-16 14:00:00
+376,Electronics,11.19,0.0,3,Chicago,2023-01-16 15:00:00
+377,Electronics,178.31,0.0,1,Chicago,2023-01-16 16:00:00
+378,Groceries,303.64,5.0,5,Phoenix,2023-01-16 17:00:00
+379,Electronics,79.94,0.0,6,Houston,2023-01-16 18:00:00
+380,Electronics,295.47,0.0,5,New York,2023-01-16 19:00:00
+381,Furniture,432.82,0.0,2,Houston,2023-01-16 20:00:00
+382,Furniture,337.66,10.0,5,Phoenix,2023-01-16 21:00:00
+383,Groceries,206.63,20.0,4,Phoenix,2023-01-16 22:00:00
+384,Groceries,175.21,0.0,5,Houston,2023-01-16 23:00:00
+385,Clothing,126.7,0.0,1,Houston,2023-01-17 00:00:00
+386,Clothing,13.43,20.0,6,New York,2023-01-17 01:00:00
+387,Furniture,15.19,0.0,9,New York,2023-01-17 02:00:00
+388,Electronics,432.9,0.0,7,Houston,2023-01-17 03:00:00
+389,Groceries,158.7,0.0,8,Houston,2023-01-17 04:00:00
+390,Groceries,67.27,15.0,4,New York,2023-01-17 05:00:00
+391,Groceries,29.48,0.0,2,Chicago,2023-01-17 06:00:00
+392,Groceries,319.1,10.0,7,Los Angeles,2023-01-17 07:00:00
+393,Groceries,319.82,20.0,4,Phoenix,2023-01-17 08:00:00
+394,Groceries,30.36,5.0,7,Phoenix,2023-01-17 09:00:00
+395,Electronics,214.55,5.0,1,New York,2023-01-17 10:00:00
+396,Electronics,96.17,5.0,1,Chicago,2023-01-17 11:00:00
+397,Furniture,352.59,0.0,1,Chicago,2023-01-17 12:00:00
+398,Electronics,29.38,10.0,2,Los Angeles,2023-01-17 13:00:00
+399,Furniture,406.35,0.0,9,Houston,2023-01-17 14:00:00
+400,Clothing,312.76,0.0,4,New York,2023-01-17 15:00:00
+401,Clothing,477.71,20.0,1,Los Angeles,2023-01-17 16:00:00
+402,Furniture,416.89,5.0,6,Houston,2023-01-17 17:00:00
+403,Toys,495.72,0.0,7,Los Angeles,2023-01-17 18:00:00
+404,Electronics,259.2,0.0,5,Los Angeles,2023-01-17 19:00:00
+405,Clothing,286.19,0.0,1,Houston,2023-01-17 20:00:00
+406,Electronics,61.93,0.0,7,New York,2023-01-17 21:00:00
+407,Toys,85.35,10.0,5,New York,2023-01-17 22:00:00
+408,Groceries,348.94,0.0,3,Chicago,2023-01-17 23:00:00
+409,Furniture,167.62,5.0,6,Los Angeles,2023-01-18 00:00:00
+410,Electronics,18.04,20.0,2,Houston,2023-01-18 01:00:00
+411,Clothing,126.37,0.0,8,Chicago,2023-01-18 02:00:00
+412,Clothing,451.46,0.0,5,New York,2023-01-18 03:00:00
+413,Toys,41.91,0.0,8,Chicago,2023-01-18 04:00:00
+414,Groceries,412.37,20.0,2,Phoenix,2023-01-18 05:00:00
+415,Toys,45.42,0.0,4,Houston,2023-01-18 06:00:00
+416,Furniture,65.2,10.0,6,Los Angeles,2023-01-18 07:00:00
+417,Clothing,269.86,0.0,3,New York,2023-01-18 08:00:00
+418,Groceries,424.36,0.0,8,Houston,2023-01-18 09:00:00
+419,Furniture,320.95,10.0,4,Chicago,2023-01-18 10:00:00
+420,Groceries,152.29,0.0,8,Phoenix,2023-01-18 11:00:00
+421,Furniture,417.29,0.0,4,New York,2023-01-18 12:00:00
+422,Clothing,294.07,0.0,1,Los Angeles,2023-01-18 13:00:00
+423,Toys,318.2,0.0,5,Phoenix,2023-01-18 14:00:00
+424,Electronics,354.18,0.0,4,Los Angeles,2023-01-18 15:00:00
+425,Clothing,496.32,10.0,2,Los Angeles,2023-01-18 16:00:00
+426,Furniture,348.07,0.0,4,Los Angeles,2023-01-18 17:00:00
+427,Clothing,198.45,0.0,5,Phoenix,2023-01-18 18:00:00
+428,Groceries,108.94,5.0,2,Houston,2023-01-18 19:00:00
+429,Toys,196.11,0.0,7,Phoenix,2023-01-18 20:00:00
+430,Clothing,201.53,15.0,2,Phoenix,2023-01-18 21:00:00
+431,Furniture,440.56,0.0,5,Chicago,2023-01-18 22:00:00
+432,Electronics,494.22,0.0,9,Los Angeles,2023-01-18 23:00:00
+433,Furniture,437.07,10.0,8,Chicago,2023-01-19 00:00:00
+434,Furniture,32.62,0.0,5,Houston,2023-01-19 01:00:00
+435,Furniture,324.03,10.0,6,New York,2023-01-19 02:00:00
+436,Clothing,130.18,10.0,1,Phoenix,2023-01-19 03:00:00
+437,Electronics,211.3,0.0,9,Los Angeles,2023-01-19 04:00:00
+438,Clothing,359.07,0.0,1,Los Angeles,2023-01-19 05:00:00
+439,Groceries,42.34,5.0,8,Chicago,2023-01-19 06:00:00
+440,Electronics,171.14,0.0,5,Chicago,2023-01-19 07:00:00
+441,Clothing,194.5,0.0,1,Chicago,2023-01-19 08:00:00
+442,Electronics,40.56,0.0,3,Houston,2023-01-19 09:00:00
+443,Groceries,465.26,0.0,6,New York,2023-01-19 10:00:00
+444,Clothing,444.57,10.0,9,Phoenix,2023-01-19 11:00:00
+445,Electronics,124.98,5.0,9,Los Angeles,2023-01-19 12:00:00
+446,Electronics,424.74,0.0,7,New York,2023-01-19 13:00:00
+447,Clothing,143.68,20.0,3,Chicago,2023-01-19 14:00:00
+448,Electronics,375.01,15.0,6,Los Angeles,2023-01-19 15:00:00
+449,Electronics,272.38,0.0,4,Houston,2023-01-19 16:00:00
+450,Clothing,405.0,0.0,7,Houston,2023-01-19 17:00:00
+451,Toys,374.3,0.0,2,New York,2023-01-19 18:00:00
+452,Clothing,406.19,20.0,9,New York,2023-01-19 19:00:00
+453,Groceries,83.39,5.0,5,Houston,2023-01-19 20:00:00
+454,Electronics,481.88,0.0,9,Los Angeles,2023-01-19 21:00:00
+455,Electronics,270.97,0.0,6,Phoenix,2023-01-19 22:00:00
+456,Clothing,20.64,0.0,6,Houston,2023-01-19 23:00:00
+457,Furniture,272.03,0.0,4,Houston,2023-01-20 00:00:00
+458,Furniture,385.8,0.0,8,Phoenix,2023-01-20 01:00:00
+459,Clothing,185.99,10.0,5,New York,2023-01-20 02:00:00
+460,Clothing,125.48,0.0,1,New York,2023-01-20 03:00:00
+461,Clothing,41.05,10.0,1,Los Angeles,2023-01-20 04:00:00
+462,Electronics,476.26,10.0,7,Los Angeles,2023-01-20 05:00:00
+463,Electronics,354.09,15.0,7,Chicago,2023-01-20 06:00:00
+464,Furniture,71.39,5.0,2,Los Angeles,2023-01-20 07:00:00
+465,Groceries,45.12,0.0,6,Houston,2023-01-20 08:00:00
+466,Furniture,159.27,0.0,1,Houston,2023-01-20 09:00:00
+467,Furniture,271.14,0.0,4,New York,2023-01-20 10:00:00
+468,Furniture,390.11,0.0,9,New York,2023-01-20 11:00:00
+469,Clothing,177.98,0.0,2,Los Angeles,2023-01-20 12:00:00
+470,Toys,438.92,0.0,5,New York,2023-01-20 13:00:00
+471,Toys,372.37,0.0,6,Los Angeles,2023-01-20 14:00:00
+472,Toys,320.75,0.0,8,Chicago,2023-01-20 15:00:00
+473,Groceries,179.28,0.0,3,New York,2023-01-20 16:00:00
+474,Furniture,438.02,0.0,7,Chicago,2023-01-20 17:00:00
+475,Toys,312.95,5.0,6,Los Angeles,2023-01-20 18:00:00
+476,Furniture,351.53,0.0,9,Los Angeles,2023-01-20 19:00:00
+477,Clothing,51.47,0.0,3,Los Angeles,2023-01-20 20:00:00
+478,Clothing,22.33,5.0,2,New York,2023-01-20 21:00:00
+479,Clothing,173.7,10.0,1,Chicago,2023-01-20 22:00:00
+480,Clothing,57.32,20.0,1,Chicago,2023-01-20 23:00:00
+481,Furniture,133.63,0.0,4,Phoenix,2023-01-21 00:00:00
+482,Furniture,190.54,0.0,7,Chicago,2023-01-21 01:00:00
+483,Furniture,140.56,0.0,8,Houston,2023-01-21 02:00:00
+484,Groceries,375.9,0.0,2,Phoenix,2023-01-21 03:00:00
+485,Electronics,492.66,10.0,8,New York,2023-01-21 04:00:00
+486,Groceries,31.18,15.0,7,New York,2023-01-21 05:00:00
+487,Groceries,289.27,0.0,1,Los Angeles,2023-01-21 06:00:00
+488,Clothing,288.52,5.0,5,Phoenix,2023-01-21 07:00:00
+489,Electronics,480.15,15.0,1,Chicago,2023-01-21 08:00:00
+490,Groceries,442.17,15.0,1,Los Angeles,2023-01-21 09:00:00
+491,Clothing,330.68,20.0,6,Chicago,2023-01-21 10:00:00
+492,Clothing,433.74,0.0,5,New York,2023-01-21 11:00:00
+493,Furniture,70.79,0.0,9,New York,2023-01-21 12:00:00
+494,Electronics,6.74,10.0,8,New York,2023-01-21 13:00:00
+495,Electronics,424.3,15.0,2,New York,2023-01-21 14:00:00
+496,Electronics,408.64,0.0,4,New York,2023-01-21 15:00:00
+497,Electronics,17.02,0.0,4,Los Angeles,2023-01-21 16:00:00
+498,Electronics,389.8,0.0,3,Los Angeles,2023-01-21 17:00:00
+499,Furniture,481.65,0.0,1,Los Angeles,2023-01-21 18:00:00
+500,Electronics,184.82,15.0,4,New York,2023-01-21 19:00:00
+501,Groceries,62.59,0.0,6,New York,2023-01-21 20:00:00
+502,Toys,234.75,0.0,3,Los Angeles,2023-01-21 21:00:00
+503,Groceries,490.64,15.0,5,Los Angeles,2023-01-21 22:00:00
+504,Clothing,332.25,0.0,2,Chicago,2023-01-21 23:00:00
+505,Furniture,252.91,0.0,9,Chicago,2023-01-22 00:00:00
+506,Furniture,176.81,0.0,3,Houston,2023-01-22 01:00:00
+507,Clothing,367.77,0.0,4,Los Angeles,2023-01-22 02:00:00
+508,Furniture,303.8,0.0,4,Chicago,2023-01-22 03:00:00
+509,Toys,56.08,0.0,9,Chicago,2023-01-22 04:00:00
+510,Furniture,23.52,20.0,6,Los Angeles,2023-01-22 05:00:00
+511,Electronics,371.27,0.0,5,Houston,2023-01-22 06:00:00
+512,Clothing,460.16,0.0,1,New York,2023-01-22 07:00:00
+513,Clothing,305.13,0.0,2,Houston,2023-01-22 08:00:00
+514,Electronics,426.73,5.0,1,New York,2023-01-22 09:00:00
+515,Groceries,401.52,20.0,3,Houston,2023-01-22 10:00:00
+516,Clothing,36.93,0.0,8,New York,2023-01-22 11:00:00
+517,Groceries,347.5,0.0,8,Chicago,2023-01-22 12:00:00
+518,Toys,283.31,0.0,1,Los Angeles,2023-01-22 13:00:00
+519,Electronics,289.45,0.0,7,New York,2023-01-22 14:00:00
+520,Groceries,8.17,0.0,3,New York,2023-01-22 15:00:00
+521,Toys,485.17,5.0,3,Houston,2023-01-22 16:00:00
+522,Furniture,68.85,0.0,9,Chicago,2023-01-22 17:00:00
+523,Groceries,268.36,15.0,3,Phoenix,2023-01-22 18:00:00
+524,Clothing,64.63,0.0,2,New York,2023-01-22 19:00:00
+525,Toys,121.82,0.0,8,New York,2023-01-22 20:00:00
+526,Furniture,479.82,5.0,9,Chicago,2023-01-22 21:00:00
+527,Clothing,249.96,10.0,1,New York,2023-01-22 22:00:00
+528,Electronics,223.12,0.0,4,Chicago,2023-01-22 23:00:00
+529,Electronics,422.15,0.0,4,Houston,2023-01-23 00:00:00
+530,Furniture,109.84,0.0,7,New York,2023-01-23 01:00:00
+531,Electronics,456.79,20.0,7,New York,2023-01-23 02:00:00
+532,Clothing,49.03,15.0,1,New York,2023-01-23 03:00:00
+533,Furniture,16.4,0.0,3,Los Angeles,2023-01-23 04:00:00
+534,Electronics,168.14,0.0,3,Phoenix,2023-01-23 05:00:00
+535,Clothing,478.48,0.0,3,New York,2023-01-23 06:00:00
+536,Groceries,470.5,0.0,2,Houston,2023-01-23 07:00:00
+537,Groceries,407.64,20.0,5,Houston,2023-01-23 08:00:00
+538,Clothing,263.09,10.0,6,Chicago,2023-01-23 09:00:00
+539,Electronics,365.14,20.0,5,Chicago,2023-01-23 10:00:00
+540,Electronics,83.82,0.0,7,Houston,2023-01-23 11:00:00
+541,Clothing,248.6,15.0,7,New York,2023-01-23 12:00:00
+542,Electronics,449.34,0.0,9,Phoenix,2023-01-23 13:00:00
+543,Groceries,319.61,0.0,9,Houston,2023-01-23 14:00:00
+544,Clothing,348.32,0.0,6,Chicago,2023-01-23 15:00:00
+545,Electronics,97.89,0.0,3,Chicago,2023-01-23 16:00:00
+546,Toys,396.45,0.0,7,New York,2023-01-23 17:00:00
+547,Electronics,37.16,0.0,2,Phoenix,2023-01-23 18:00:00
+548,Toys,406.41,0.0,5,Phoenix,2023-01-23 19:00:00
+549,Groceries,396.56,0.0,5,Phoenix,2023-01-23 20:00:00
+550,Electronics,78.74,0.0,4,New York,2023-01-23 21:00:00
+551,Furniture,242.22,10.0,9,Houston,2023-01-23 22:00:00
+552,Clothing,419.55,0.0,7,Los Angeles,2023-01-23 23:00:00
+553,Clothing,274.46,5.0,8,Los Angeles,2023-01-24 00:00:00
+554,Groceries,193.35,0.0,2,Chicago,2023-01-24 01:00:00
+555,Furniture,104.56,0.0,6,Houston,2023-01-24 02:00:00
+556,Furniture,101.49,0.0,6,Chicago,2023-01-24 03:00:00
+557,Groceries,318.98,0.0,6,Phoenix,2023-01-24 04:00:00
+558,Furniture,48.83,0.0,6,Phoenix,2023-01-24 05:00:00
+559,Groceries,85.29,10.0,7,Phoenix,2023-01-24 06:00:00
+560,Groceries,328.49,20.0,1,Houston,2023-01-24 07:00:00
+561,Clothing,129.06,10.0,4,Chicago,2023-01-24 08:00:00
+562,Furniture,120.52,20.0,8,Chicago,2023-01-24 09:00:00
+563,Clothing,449.89,0.0,7,Houston,2023-01-24 10:00:00
+564,Electronics,459.84,0.0,6,New York,2023-01-24 11:00:00
+565,Clothing,252.02,0.0,7,Phoenix,2023-01-24 12:00:00
+566,Furniture,213.49,0.0,7,Houston,2023-01-24 13:00:00
+567,Groceries,356.17,0.0,6,Los Angeles,2023-01-24 14:00:00
+568,Groceries,115.06,0.0,5,Los Angeles,2023-01-24 15:00:00
+569,Toys,97.69,0.0,3,Houston,2023-01-24 16:00:00
+570,Electronics,354.05,5.0,5,Houston,2023-01-24 17:00:00
+571,Toys,60.08,10.0,9,New York,2023-01-24 18:00:00
+572,Clothing,461.8,10.0,2,New York,2023-01-24 19:00:00
+573,Electronics,239.8,0.0,3,New York,2023-01-24 20:00:00
+574,Electronics,377.72,0.0,8,Los Angeles,2023-01-24 21:00:00
+575,Groceries,55.87,10.0,9,New York,2023-01-24 22:00:00
+576,Toys,176.03,0.0,4,New York,2023-01-24 23:00:00
+577,Groceries,220.71,10.0,2,New York,2023-01-25 00:00:00
+578,Groceries,425.05,0.0,4,New York,2023-01-25 01:00:00
+579,Furniture,110.54,10.0,2,New York,2023-01-25 02:00:00
+580,Groceries,423.56,0.0,8,Chicago,2023-01-25 03:00:00
+581,Toys,44.76,5.0,1,New York,2023-01-25 04:00:00
+582,Toys,436.25,0.0,6,Los Angeles,2023-01-25 05:00:00
+583,Toys,68.34,15.0,1,Houston,2023-01-25 06:00:00
+584,Electronics,28.97,0.0,3,Phoenix,2023-01-25 07:00:00
+585,Electronics,80.34,0.0,3,Chicago,2023-01-25 08:00:00
+586,Electronics,228.96,10.0,3,Phoenix,2023-01-25 09:00:00
+587,Clothing,263.7,0.0,1,Houston,2023-01-25 10:00:00
+588,Electronics,362.91,0.0,3,Chicago,2023-01-25 11:00:00
+589,Furniture,274.44,10.0,2,Los Angeles,2023-01-25 12:00:00
+590,Furniture,461.72,15.0,8,Houston,2023-01-25 13:00:00
+591,Groceries,247.82,15.0,9,Houston,2023-01-25 14:00:00
+592,Groceries,232.13,5.0,5,New York,2023-01-25 15:00:00
+593,Clothing,294.77,0.0,4,Los Angeles,2023-01-25 16:00:00
+594,Electronics,493.34,0.0,4,Los Angeles,2023-01-25 17:00:00
+595,Clothing,132.27,0.0,8,Los Angeles,2023-01-25 18:00:00
+596,Clothing,64.28,5.0,4,Los Angeles,2023-01-25 19:00:00
+597,Furniture,433.84,0.0,2,Los Angeles,2023-01-25 20:00:00
+598,Groceries,443.19,10.0,4,Phoenix,2023-01-25 21:00:00
+599,Clothing,159.67,0.0,1,Los Angeles,2023-01-25 22:00:00
+600,Furniture,158.73,0.0,8,Phoenix,2023-01-25 23:00:00
+601,Groceries,403.54,0.0,7,New York,2023-01-26 00:00:00
+602,Electronics,160.23,0.0,9,Chicago,2023-01-26 01:00:00
+603,Furniture,408.52,20.0,9,Los Angeles,2023-01-26 02:00:00
+604,Toys,357.79,0.0,3,Houston,2023-01-26 03:00:00
+605,Electronics,93.25,0.0,9,Houston,2023-01-26 04:00:00
+606,Groceries,86.83,0.0,1,Los Angeles,2023-01-26 05:00:00
+607,Electronics,80.5,0.0,7,New York,2023-01-26 06:00:00
+608,Electronics,486.07,0.0,3,Los Angeles,2023-01-26 07:00:00
+609,Electronics,130.31,0.0,4,Phoenix,2023-01-26 08:00:00
+610,Clothing,140.2,0.0,4,Phoenix,2023-01-26 09:00:00
+611,Clothing,134.65,20.0,8,New York,2023-01-26 10:00:00
+612,Clothing,230.24,0.0,8,Chicago,2023-01-26 11:00:00
+613,Furniture,108.12,0.0,6,Phoenix,2023-01-26 12:00:00
+614,Clothing,410.58,0.0,8,New York,2023-01-26 13:00:00
+615,Furniture,319.75,10.0,9,New York,2023-01-26 14:00:00
+616,Groceries,71.92,5.0,7,Houston,2023-01-26 15:00:00
+617,Electronics,110.29,0.0,6,Houston,2023-01-26 16:00:00
+618,Electronics,114.16,0.0,2,Houston,2023-01-26 17:00:00
+619,Furniture,137.71,20.0,5,Chicago,2023-01-26 18:00:00
+620,Clothing,376.72,0.0,4,Phoenix,2023-01-26 19:00:00
+621,Electronics,108.97,0.0,9,Chicago,2023-01-26 20:00:00
+622,Electronics,356.08,0.0,5,New York,2023-01-26 21:00:00
+623,Toys,427.25,0.0,6,Los Angeles,2023-01-26 22:00:00
+624,Clothing,249.96,15.0,7,Los Angeles,2023-01-26 23:00:00
+625,Groceries,412.88,0.0,1,Phoenix,2023-01-27 00:00:00
+626,Electronics,226.25,20.0,8,Houston,2023-01-27 01:00:00
+627,Groceries,277.01,5.0,3,Chicago,2023-01-27 02:00:00
+628,Electronics,54.31,10.0,8,New York,2023-01-27 03:00:00
+629,Electronics,50.05,0.0,1,Houston,2023-01-27 04:00:00
+630,Furniture,485.68,20.0,9,Chicago,2023-01-27 05:00:00
+631,Furniture,209.9,0.0,1,New York,2023-01-27 06:00:00
+632,Toys,73.44,0.0,3,Chicago,2023-01-27 07:00:00
+633,Groceries,474.4,5.0,3,New York,2023-01-27 08:00:00
+634,Clothing,176.53,0.0,8,Los Angeles,2023-01-27 09:00:00
+635,Furniture,212.57,0.0,5,Houston,2023-01-27 10:00:00
+636,Electronics,237.9,0.0,9,New York,2023-01-27 11:00:00
+637,Electronics,442.82,0.0,4,Los Angeles,2023-01-27 12:00:00
+638,Groceries,178.93,5.0,5,Houston,2023-01-27 13:00:00
+639,Furniture,251.95,5.0,5,Houston,2023-01-27 14:00:00
+640,Electronics,40.06,0.0,6,Houston,2023-01-27 15:00:00
+641,Toys,183.89,0.0,7,Houston,2023-01-27 16:00:00
+642,Furniture,246.29,0.0,7,New York,2023-01-27 17:00:00
+643,Electronics,149.74,0.0,6,Los Angeles,2023-01-27 18:00:00
+644,Toys,447.56,20.0,3,New York,2023-01-27 19:00:00
+645,Electronics,162.05,0.0,1,Los Angeles,2023-01-27 20:00:00
+646,Groceries,212.55,0.0,1,Los Angeles,2023-01-27 21:00:00
+647,Furniture,414.55,10.0,4,New York,2023-01-27 22:00:00
+648,Electronics,363.5,0.0,9,Houston,2023-01-27 23:00:00
+649,Furniture,239.62,0.0,1,Los Angeles,2023-01-28 00:00:00
+650,Groceries,69.16,0.0,4,Houston,2023-01-28 01:00:00
+651,Furniture,234.08,10.0,4,Los Angeles,2023-01-28 02:00:00
+652,Groceries,153.19,0.0,1,Los Angeles,2023-01-28 03:00:00
+653,Furniture,369.88,0.0,8,Chicago,2023-01-28 04:00:00
+654,Clothing,377.01,0.0,1,New York,2023-01-28 05:00:00
+655,Toys,307.54,0.0,9,Chicago,2023-01-28 06:00:00
+656,Electronics,124.66,20.0,6,New York,2023-01-28 07:00:00
+657,Electronics,272.2,0.0,6,New York,2023-01-28 08:00:00
+658,Groceries,172.62,20.0,2,Phoenix,2023-01-28 09:00:00
+659,Clothing,379.18,20.0,7,Phoenix,2023-01-28 10:00:00
+660,Electronics,377.32,0.0,5,New York,2023-01-28 11:00:00
+661,Toys,214.26,10.0,9,Los Angeles,2023-01-28 12:00:00
+662,Electronics,37.79,0.0,6,Los Angeles,2023-01-28 13:00:00
+663,Groceries,298.91,0.0,7,Chicago,2023-01-28 14:00:00
+664,Clothing,340.31,0.0,2,New York,2023-01-28 15:00:00
+665,Toys,496.33,0.0,4,Chicago,2023-01-28 16:00:00
+666,Groceries,80.45,0.0,4,Chicago,2023-01-28 17:00:00
+667,Groceries,194.85,0.0,8,Chicago,2023-01-28 18:00:00
+668,Clothing,138.99,0.0,3,New York,2023-01-28 19:00:00
+669,Electronics,115.88,0.0,4,New York,2023-01-28 20:00:00
+670,Toys,355.09,0.0,7,New York,2023-01-28 21:00:00
+671,Clothing,457.2,15.0,3,New York,2023-01-28 22:00:00
+672,Electronics,101.77,0.0,7,Phoenix,2023-01-28 23:00:00
+673,Electronics,429.5,0.0,6,Houston,2023-01-29 00:00:00
+674,Electronics,155.08,0.0,2,Los Angeles,2023-01-29 01:00:00
+675,Electronics,65.1,15.0,9,Chicago,2023-01-29 02:00:00
+676,Clothing,29.52,5.0,5,Chicago,2023-01-29 03:00:00
+677,Electronics,272.08,0.0,8,Los Angeles,2023-01-29 04:00:00
+678,Toys,46.29,0.0,8,New York,2023-01-29 05:00:00
+679,Electronics,443.12,0.0,5,Chicago,2023-01-29 06:00:00
+680,Clothing,170.62,15.0,7,Los Angeles,2023-01-29 07:00:00
+681,Furniture,385.47,0.0,1,Houston,2023-01-29 08:00:00
+682,Electronics,371.61,10.0,9,Phoenix,2023-01-29 09:00:00
+683,Groceries,195.57,0.0,7,Chicago,2023-01-29 10:00:00
+684,Furniture,382.95,0.0,8,Los Angeles,2023-01-29 11:00:00
+685,Electronics,100.45,5.0,4,Chicago,2023-01-29 12:00:00
+686,Clothing,92.86,0.0,2,Chicago,2023-01-29 13:00:00
+687,Electronics,216.97,15.0,3,New York,2023-01-29 14:00:00
+688,Electronics,474.46,0.0,2,New York,2023-01-29 15:00:00
+689,Groceries,118.68,5.0,6,Phoenix,2023-01-29 16:00:00
+690,Furniture,69.26,0.0,5,New York,2023-01-29 17:00:00
+691,Furniture,428.67,0.0,8,Houston,2023-01-29 18:00:00
+692,Electronics,394.24,5.0,5,Phoenix,2023-01-29 19:00:00
+693,Electronics,152.03,5.0,9,Chicago,2023-01-29 20:00:00
+694,Furniture,269.11,5.0,9,Phoenix,2023-01-29 21:00:00
+695,Toys,102.95,0.0,9,Phoenix,2023-01-29 22:00:00
+696,Electronics,456.66,20.0,1,New York,2023-01-29 23:00:00
+697,Furniture,50.58,20.0,1,Los Angeles,2023-01-30 00:00:00
+698,Furniture,59.16,10.0,3,Phoenix,2023-01-30 01:00:00
+699,Furniture,296.98,20.0,5,Phoenix,2023-01-30 02:00:00
+700,Furniture,202.41,5.0,2,Los Angeles,2023-01-30 03:00:00
+701,Clothing,56.7,0.0,8,New York,2023-01-30 04:00:00
+702,Electronics,446.7,15.0,8,Phoenix,2023-01-30 05:00:00
+703,Furniture,21.25,0.0,5,Chicago,2023-01-30 06:00:00
+704,Clothing,330.32,0.0,8,Chicago,2023-01-30 07:00:00
+705,Electronics,457.21,0.0,4,Los Angeles,2023-01-30 08:00:00
+706,Electronics,481.54,15.0,2,Los Angeles,2023-01-30 09:00:00
+707,Electronics,456.93,5.0,5,New York,2023-01-30 10:00:00
+708,Electronics,140.26,0.0,7,Chicago,2023-01-30 11:00:00
+709,Furniture,338.39,10.0,1,Los Angeles,2023-01-30 12:00:00
+710,Furniture,14.12,0.0,5,Chicago,2023-01-30 13:00:00
+711,Electronics,8.17,0.0,3,Los Angeles,2023-01-30 14:00:00
+712,Furniture,91.12,0.0,4,Houston,2023-01-30 15:00:00
+713,Furniture,420.06,0.0,7,Phoenix,2023-01-30 16:00:00
+714,Electronics,414.8,10.0,4,Chicago,2023-01-30 17:00:00
+715,Electronics,198.17,0.0,7,Chicago,2023-01-30 18:00:00
+716,Furniture,165.62,0.0,6,New York,2023-01-30 19:00:00
+717,Clothing,227.54,20.0,3,Chicago,2023-01-30 20:00:00
+718,Electronics,427.66,0.0,3,Houston,2023-01-30 21:00:00
+719,Electronics,121.95,0.0,2,Phoenix,2023-01-30 22:00:00
+720,Groceries,418.79,0.0,8,Houston,2023-01-30 23:00:00
+721,Groceries,405.54,0.0,6,New York,2023-01-31 00:00:00
+722,Electronics,291.83,0.0,2,Los Angeles,2023-01-31 01:00:00
+723,Toys,317.54,10.0,7,Los Angeles,2023-01-31 02:00:00
+724,Toys,268.04,0.0,9,New York,2023-01-31 03:00:00
+725,Clothing,124.67,20.0,4,Chicago,2023-01-31 04:00:00
+726,Furniture,291.02,0.0,3,Chicago,2023-01-31 05:00:00
+727,Furniture,32.4,0.0,4,New York,2023-01-31 06:00:00
+728,Furniture,70.52,0.0,3,Los Angeles,2023-01-31 07:00:00
+729,Clothing,63.46,0.0,2,Los Angeles,2023-01-31 08:00:00
+730,Electronics,488.06,0.0,9,New York,2023-01-31 09:00:00
+731,Electronics,90.44,5.0,9,New York,2023-01-31 10:00:00
+732,Electronics,114.91,15.0,8,New York,2023-01-31 11:00:00
+733,Furniture,8.7,0.0,9,Houston,2023-01-31 12:00:00
+734,Furniture,33.73,0.0,8,Phoenix,2023-01-31 13:00:00
+735,Furniture,170.87,15.0,4,Chicago,2023-01-31 14:00:00
+736,Groceries,51.72,0.0,1,Los Angeles,2023-01-31 15:00:00
+737,Furniture,249.11,5.0,6,Los Angeles,2023-01-31 16:00:00
+738,Groceries,20.12,0.0,4,Phoenix,2023-01-31 17:00:00
+739,Furniture,72.83,20.0,1,Phoenix,2023-01-31 18:00:00
+740,Toys,423.27,0.0,5,New York,2023-01-31 19:00:00
+741,Electronics,201.14,10.0,3,Houston,2023-01-31 20:00:00
+742,Groceries,409.88,0.0,4,Los Angeles,2023-01-31 21:00:00
+743,Electronics,390.59,0.0,7,Houston,2023-01-31 22:00:00
+744,Furniture,497.06,0.0,4,New York,2023-01-31 23:00:00
+745,Toys,25.85,0.0,8,Houston,2023-02-01 00:00:00
+746,Groceries,327.83,0.0,4,New York,2023-02-01 01:00:00
+747,Groceries,449.55,0.0,3,Phoenix,2023-02-01 02:00:00
+748,Clothing,75.11,0.0,4,Los Angeles,2023-02-01 03:00:00
+749,Furniture,405.99,0.0,7,Phoenix,2023-02-01 04:00:00
+750,Furniture,303.7,15.0,5,New York,2023-02-01 05:00:00
+751,Furniture,136.06,0.0,4,New York,2023-02-01 06:00:00
+752,Clothing,379.43,0.0,2,Houston,2023-02-01 07:00:00
+753,Groceries,123.83,15.0,2,Houston,2023-02-01 08:00:00
+754,Toys,13.14,0.0,1,Chicago,2023-02-01 09:00:00
+755,Furniture,366.85,0.0,7,Los Angeles,2023-02-01 10:00:00
+756,Clothing,11.44,10.0,5,Chicago,2023-02-01 11:00:00
+757,Electronics,405.49,15.0,5,Chicago,2023-02-01 12:00:00
+758,Toys,456.49,20.0,8,Phoenix,2023-02-01 13:00:00
+759,Groceries,51.78,10.0,2,New York,2023-02-01 14:00:00
+760,Groceries,91.34,0.0,3,Houston,2023-02-01 15:00:00
+761,Toys,490.58,0.0,6,Chicago,2023-02-01 16:00:00
+762,Furniture,272.32,0.0,7,Los Angeles,2023-02-01 17:00:00
+763,Electronics,488.89,0.0,1,Chicago,2023-02-01 18:00:00
+764,Groceries,393.21,5.0,5,Houston,2023-02-01 19:00:00
+765,Electronics,392.55,0.0,6,New York,2023-02-01 20:00:00
+766,Electronics,262.2,0.0,6,Chicago,2023-02-01 21:00:00
+767,Clothing,319.61,20.0,7,Phoenix,2023-02-01 22:00:00
+768,Groceries,487.13,15.0,8,New York,2023-02-01 23:00:00
+769,Groceries,313.96,0.0,8,New York,2023-02-02 00:00:00
+770,Electronics,17.71,0.0,7,New York,2023-02-02 01:00:00
+771,Electronics,86.52,0.0,6,New York,2023-02-02 02:00:00
+772,Furniture,483.37,5.0,1,Chicago,2023-02-02 03:00:00
+773,Electronics,61.38,10.0,1,Phoenix,2023-02-02 04:00:00
+774,Clothing,9.41,0.0,2,Chicago,2023-02-02 05:00:00
+775,Clothing,112.2,0.0,4,Houston,2023-02-02 06:00:00
+776,Furniture,347.2,15.0,9,Chicago,2023-02-02 07:00:00
+777,Electronics,433.79,15.0,9,Chicago,2023-02-02 08:00:00
+778,Electronics,84.46,20.0,4,Chicago,2023-02-02 09:00:00
+779,Electronics,476.53,0.0,1,Phoenix,2023-02-02 10:00:00
+780,Groceries,206.91,5.0,4,Houston,2023-02-02 11:00:00
+781,Electronics,374.65,15.0,4,Chicago,2023-02-02 12:00:00
+782,Electronics,291.59,20.0,6,Los Angeles,2023-02-02 13:00:00
+783,Groceries,320.73,5.0,5,Houston,2023-02-02 14:00:00
+784,Electronics,65.11,0.0,3,New York,2023-02-02 15:00:00
+785,Groceries,32.28,0.0,6,Los Angeles,2023-02-02 16:00:00
+786,Electronics,21.84,0.0,6,Chicago,2023-02-02 17:00:00
+787,Electronics,291.32,0.0,2,Houston,2023-02-02 18:00:00
+788,Groceries,452.24,0.0,3,Los Angeles,2023-02-02 19:00:00
+789,Groceries,50.82,15.0,3,New York,2023-02-02 20:00:00
+790,Groceries,259.73,10.0,9,Los Angeles,2023-02-02 21:00:00
+791,Groceries,115.91,5.0,6,Phoenix,2023-02-02 22:00:00
+792,Groceries,162.74,20.0,5,Chicago,2023-02-02 23:00:00
+793,Groceries,294.42,0.0,7,Phoenix,2023-02-03 00:00:00
+794,Clothing,220.23,0.0,1,Houston,2023-02-03 01:00:00
+795,Furniture,114.52,0.0,2,Los Angeles,2023-02-03 02:00:00
+796,Electronics,424.76,0.0,8,Chicago,2023-02-03 03:00:00
+797,Clothing,324.91,0.0,8,New York,2023-02-03 04:00:00
+798,Toys,392.56,0.0,2,Phoenix,2023-02-03 05:00:00
+799,Groceries,128.52,0.0,6,Chicago,2023-02-03 06:00:00
+800,Electronics,165.26,0.0,2,Phoenix,2023-02-03 07:00:00
+801,Toys,220.94,0.0,1,Houston,2023-02-03 08:00:00
+802,Toys,103.95,10.0,2,Houston,2023-02-03 09:00:00
+803,Toys,484.1,10.0,1,Phoenix,2023-02-03 10:00:00
+804,Electronics,257.5,15.0,8,Houston,2023-02-03 11:00:00
+805,Electronics,101.92,0.0,1,Phoenix,2023-02-03 12:00:00
+806,Furniture,162.93,0.0,1,Phoenix,2023-02-03 13:00:00
+807,Electronics,168.1,15.0,5,Los Angeles,2023-02-03 14:00:00
+808,Electronics,482.99,0.0,2,Houston,2023-02-03 15:00:00
+809,Toys,298.63,0.0,7,New York,2023-02-03 16:00:00
+810,Groceries,188.97,0.0,7,Los Angeles,2023-02-03 17:00:00
+811,Electronics,186.37,20.0,1,New York,2023-02-03 18:00:00
+812,Groceries,444.52,5.0,1,Los Angeles,2023-02-03 19:00:00
+813,Clothing,320.77,0.0,1,Phoenix,2023-02-03 20:00:00
+814,Clothing,181.48,0.0,9,Phoenix,2023-02-03 21:00:00
+815,Electronics,158.76,0.0,9,Los Angeles,2023-02-03 22:00:00
+816,Electronics,173.61,10.0,5,Phoenix,2023-02-03 23:00:00
+817,Clothing,104.52,0.0,4,Los Angeles,2023-02-04 00:00:00
+818,Clothing,236.31,0.0,5,New York,2023-02-04 01:00:00
+819,Electronics,104.45,0.0,5,Phoenix,2023-02-04 02:00:00
+820,Electronics,136.69,0.0,4,Houston,2023-02-04 03:00:00
+821,Toys,273.83,0.0,6,New York,2023-02-04 04:00:00
+822,Electronics,247.47,10.0,2,New York,2023-02-04 05:00:00
+823,Electronics,327.97,0.0,8,Los Angeles,2023-02-04 06:00:00
+824,Groceries,287.02,10.0,6,Chicago,2023-02-04 07:00:00
+825,Electronics,467.2,0.0,2,Chicago,2023-02-04 08:00:00
+826,Clothing,434.71,10.0,7,New York,2023-02-04 09:00:00
+827,Electronics,291.78,20.0,6,Chicago,2023-02-04 10:00:00
+828,Furniture,231.16,5.0,4,Houston,2023-02-04 11:00:00
+829,Electronics,409.13,20.0,3,Phoenix,2023-02-04 12:00:00
+830,Groceries,212.21,15.0,8,Houston,2023-02-04 13:00:00
+831,Groceries,250.6,0.0,7,Phoenix,2023-02-04 14:00:00
+832,Clothing,93.8,15.0,6,Chicago,2023-02-04 15:00:00
+833,Furniture,381.29,5.0,1,Chicago,2023-02-04 16:00:00
+834,Furniture,82.55,15.0,5,Los Angeles,2023-02-04 17:00:00
+835,Electronics,112.56,0.0,1,Houston,2023-02-04 18:00:00
+836,Furniture,30.89,0.0,2,Houston,2023-02-04 19:00:00
+837,Furniture,52.5,20.0,3,Houston,2023-02-04 20:00:00
+838,Groceries,73.59,0.0,1,Houston,2023-02-04 21:00:00
+839,Electronics,389.68,0.0,7,New York,2023-02-04 22:00:00
+840,Toys,190.15,0.0,2,Houston,2023-02-04 23:00:00
+841,Electronics,76.77,20.0,6,Houston,2023-02-05 00:00:00
+842,Clothing,394.02,0.0,2,Chicago,2023-02-05 01:00:00
+843,Groceries,277.11,0.0,4,Houston,2023-02-05 02:00:00
+844,Electronics,188.89,10.0,4,New York,2023-02-05 03:00:00
+845,Electronics,162.29,0.0,5,Chicago,2023-02-05 04:00:00
+846,Groceries,450.47,5.0,9,Houston,2023-02-05 05:00:00
+847,Electronics,460.46,0.0,6,Los Angeles,2023-02-05 06:00:00
+848,Clothing,341.01,0.0,4,Chicago,2023-02-05 07:00:00
+849,Electronics,281.77,0.0,2,Phoenix,2023-02-05 08:00:00
+850,Electronics,388.54,0.0,4,New York,2023-02-05 09:00:00
+851,Furniture,442.71,0.0,9,Chicago,2023-02-05 10:00:00
+852,Electronics,48.08,0.0,7,Los Angeles,2023-02-05 11:00:00
+853,Furniture,359.38,0.0,6,Houston,2023-02-05 12:00:00
+854,Furniture,51.76,15.0,4,New York,2023-02-05 13:00:00
+855,Toys,70.46,0.0,7,Los Angeles,2023-02-05 14:00:00
+856,Clothing,20.97,0.0,5,New York,2023-02-05 15:00:00
+857,Electronics,220.79,20.0,6,Los Angeles,2023-02-05 16:00:00
+858,Electronics,436.95,0.0,2,Los Angeles,2023-02-05 17:00:00
+859,Furniture,246.21,15.0,7,New York,2023-02-05 18:00:00
+860,Groceries,416.88,0.0,3,New York,2023-02-05 19:00:00
+861,Electronics,284.68,0.0,6,Chicago,2023-02-05 20:00:00
+862,Clothing,98.47,15.0,7,New York,2023-02-05 21:00:00
+863,Groceries,434.01,0.0,5,Phoenix,2023-02-05 22:00:00
+864,Furniture,309.94,0.0,1,Houston,2023-02-05 23:00:00
+865,Electronics,107.45,15.0,5,New York,2023-02-06 00:00:00
+866,Furniture,275.98,15.0,1,New York,2023-02-06 01:00:00
+867,Electronics,377.88,15.0,1,New York,2023-02-06 02:00:00
+868,Electronics,400.33,0.0,8,Phoenix,2023-02-06 03:00:00
+869,Clothing,350.05,5.0,9,Houston,2023-02-06 04:00:00
+870,Furniture,92.08,0.0,1,Chicago,2023-02-06 05:00:00
+871,Groceries,338.72,10.0,8,Houston,2023-02-06 06:00:00
+872,Toys,119.71,15.0,1,Chicago,2023-02-06 07:00:00
+873,Electronics,445.8,0.0,5,Chicago,2023-02-06 08:00:00
+874,Groceries,457.14,0.0,3,New York,2023-02-06 09:00:00
+875,Electronics,466.96,0.0,3,Chicago,2023-02-06 10:00:00
+876,Groceries,27.61,0.0,3,New York,2023-02-06 11:00:00
+877,Furniture,447.78,0.0,6,New York,2023-02-06 12:00:00
+878,Groceries,171.73,15.0,2,Los Angeles,2023-02-06 13:00:00
+879,Electronics,398.97,0.0,8,New York,2023-02-06 14:00:00
+880,Electronics,17.07,0.0,2,Houston,2023-02-06 15:00:00
+881,Toys,324.25,15.0,9,New York,2023-02-06 16:00:00
+882,Electronics,7.84,15.0,2,Phoenix,2023-02-06 17:00:00
+883,Toys,347.61,5.0,9,Houston,2023-02-06 18:00:00
+884,Electronics,385.25,0.0,5,Los Angeles,2023-02-06 19:00:00
+885,Clothing,298.47,0.0,4,Los Angeles,2023-02-06 20:00:00
+886,Electronics,171.58,0.0,7,New York,2023-02-06 21:00:00
+887,Clothing,58.68,0.0,1,New York,2023-02-06 22:00:00
+888,Toys,222.67,0.0,1,New York,2023-02-06 23:00:00
+889,Toys,12.21,0.0,9,Phoenix,2023-02-07 00:00:00
+890,Furniture,482.83,0.0,5,Phoenix,2023-02-07 01:00:00
+891,Electronics,54.56,10.0,9,Los Angeles,2023-02-07 02:00:00
+892,Electronics,170.75,0.0,4,Houston,2023-02-07 03:00:00
+893,Electronics,267.17,0.0,9,Los Angeles,2023-02-07 04:00:00
+894,Electronics,369.72,0.0,9,Houston,2023-02-07 05:00:00
+895,Furniture,378.12,0.0,7,Houston,2023-02-07 06:00:00
+896,Furniture,403.24,5.0,3,Los Angeles,2023-02-07 07:00:00
+897,Electronics,386.36,0.0,1,Chicago,2023-02-07 08:00:00
+898,Groceries,359.85,0.0,3,Los Angeles,2023-02-07 09:00:00
+899,Furniture,456.19,5.0,4,Chicago,2023-02-07 10:00:00
+900,Toys,434.35,0.0,7,Phoenix,2023-02-07 11:00:00
+901,Toys,246.47,15.0,2,Phoenix,2023-02-07 12:00:00
+902,Electronics,18.42,10.0,4,Chicago,2023-02-07 13:00:00
+903,Groceries,417.37,15.0,9,Los Angeles,2023-02-07 14:00:00
+904,Furniture,221.71,0.0,8,Los Angeles,2023-02-07 15:00:00
+905,Electronics,330.83,0.0,7,Chicago,2023-02-07 16:00:00
+906,Clothing,271.4,0.0,4,Chicago,2023-02-07 17:00:00
+907,Furniture,259.67,5.0,8,New York,2023-02-07 18:00:00
+908,Toys,103.97,10.0,4,Phoenix,2023-02-07 19:00:00
+909,Clothing,201.65,10.0,5,Los Angeles,2023-02-07 20:00:00
+910,Clothing,25.07,10.0,3,Chicago,2023-02-07 21:00:00
+911,Groceries,12.28,0.0,1,New York,2023-02-07 22:00:00
+912,Clothing,464.78,0.0,6,Houston,2023-02-07 23:00:00
+913,Furniture,461.7,0.0,5,New York,2023-02-08 00:00:00
+914,Clothing,335.02,0.0,6,New York,2023-02-08 01:00:00
+915,Clothing,308.5,0.0,5,New York,2023-02-08 02:00:00
+916,Clothing,125.89,5.0,7,Los Angeles,2023-02-08 03:00:00
+917,Electronics,376.14,5.0,9,Los Angeles,2023-02-08 04:00:00
+918,Groceries,422.41,0.0,1,Phoenix,2023-02-08 05:00:00
+919,Furniture,293.74,0.0,1,Phoenix,2023-02-08 06:00:00
+920,Groceries,137.01,0.0,1,Chicago,2023-02-08 07:00:00
+921,Electronics,161.2,5.0,8,Houston,2023-02-08 08:00:00
+922,Electronics,140.52,20.0,1,Chicago,2023-02-08 09:00:00
+923,Furniture,496.31,0.0,4,Phoenix,2023-02-08 10:00:00
+924,Clothing,34.02,5.0,7,Phoenix,2023-02-08 11:00:00
+925,Electronics,452.38,0.0,1,Houston,2023-02-08 12:00:00
+926,Furniture,348.98,5.0,4,Los Angeles,2023-02-08 13:00:00
+927,Clothing,49.66,20.0,7,Chicago,2023-02-08 14:00:00
+928,Groceries,123.69,5.0,5,New York,2023-02-08 15:00:00
+929,Electronics,261.63,15.0,3,New York,2023-02-08 16:00:00
+930,Groceries,340.19,0.0,4,Los Angeles,2023-02-08 17:00:00
+931,Groceries,226.56,5.0,6,Chicago,2023-02-08 18:00:00
+932,Furniture,78.82,0.0,6,Chicago,2023-02-08 19:00:00
+933,Furniture,267.9,20.0,9,Los Angeles,2023-02-08 20:00:00
+934,Toys,458.15,0.0,2,Chicago,2023-02-08 21:00:00
+935,Electronics,402.94,5.0,8,Chicago,2023-02-08 22:00:00
+936,Groceries,212.33,0.0,7,Houston,2023-02-08 23:00:00
+937,Electronics,403.06,0.0,6,New York,2023-02-09 00:00:00
+938,Toys,88.16,0.0,9,New York,2023-02-09 01:00:00
+939,Electronics,496.17,0.0,7,Phoenix,2023-02-09 02:00:00
+940,Clothing,15.53,20.0,3,Chicago,2023-02-09 03:00:00
+941,Electronics,121.59,0.0,9,Phoenix,2023-02-09 04:00:00
+942,Groceries,44.04,0.0,8,Los Angeles,2023-02-09 05:00:00
+943,Electronics,115.69,20.0,5,Chicago,2023-02-09 06:00:00
+944,Clothing,321.95,0.0,1,Houston,2023-02-09 07:00:00
+945,Furniture,205.03,20.0,2,Chicago,2023-02-09 08:00:00
+946,Electronics,416.18,0.0,9,Houston,2023-02-09 09:00:00
+947,Electronics,64.51,15.0,9,Chicago,2023-02-09 10:00:00
+948,Toys,218.67,0.0,2,Houston,2023-02-09 11:00:00
+949,Clothing,474.07,0.0,3,Houston,2023-02-09 12:00:00
+950,Groceries,332.87,0.0,9,Phoenix,2023-02-09 13:00:00
+951,Electronics,14.79,15.0,9,Chicago,2023-02-09 14:00:00
+952,Toys,474.11,15.0,6,Chicago,2023-02-09 15:00:00
+953,Groceries,199.2,15.0,3,Chicago,2023-02-09 16:00:00
+954,Groceries,233.91,0.0,4,Los Angeles,2023-02-09 17:00:00
+955,Groceries,480.64,5.0,7,Houston,2023-02-09 18:00:00
+956,Furniture,330.75,0.0,8,Chicago,2023-02-09 19:00:00
+957,Electronics,380.76,20.0,4,Phoenix,2023-02-09 20:00:00
+958,Furniture,471.42,0.0,2,Chicago,2023-02-09 21:00:00
+959,Groceries,82.47,0.0,2,Houston,2023-02-09 22:00:00
+960,Groceries,223.44,20.0,1,Phoenix,2023-02-09 23:00:00
+961,Furniture,459.55,0.0,1,Chicago,2023-02-10 00:00:00
+962,Furniture,192.42,20.0,2,Houston,2023-02-10 01:00:00
+963,Clothing,205.87,5.0,6,Los Angeles,2023-02-10 02:00:00
+964,Clothing,461.85,0.0,5,Phoenix,2023-02-10 03:00:00
+965,Furniture,307.62,0.0,5,Chicago,2023-02-10 04:00:00
+966,Furniture,230.22,0.0,1,Phoenix,2023-02-10 05:00:00
+967,Electronics,348.58,15.0,3,Chicago,2023-02-10 06:00:00
+968,Electronics,163.27,0.0,3,Houston,2023-02-10 07:00:00
+969,Electronics,437.18,5.0,5,Houston,2023-02-10 08:00:00
+970,Groceries,52.67,0.0,8,New York,2023-02-10 09:00:00
+971,Electronics,299.85,10.0,3,Phoenix,2023-02-10 10:00:00
+972,Electronics,348.0,0.0,5,Houston,2023-02-10 11:00:00
+973,Electronics,385.38,0.0,1,Houston,2023-02-10 12:00:00
+974,Clothing,62.35,20.0,4,Phoenix,2023-02-10 13:00:00
+975,Clothing,339.55,0.0,7,Houston,2023-02-10 14:00:00
+976,Electronics,185.28,15.0,2,Chicago,2023-02-10 15:00:00
+977,Electronics,186.22,10.0,4,New York,2023-02-10 16:00:00
+978,Electronics,282.48,0.0,1,Houston,2023-02-10 17:00:00
+979,Furniture,347.58,15.0,9,Chicago,2023-02-10 18:00:00
+980,Electronics,120.14,15.0,6,Phoenix,2023-02-10 19:00:00
+981,Clothing,79.06,0.0,6,Houston,2023-02-10 20:00:00
+982,Toys,35.0,0.0,4,Phoenix,2023-02-10 21:00:00
+983,Electronics,263.49,0.0,6,Chicago,2023-02-10 22:00:00
+984,Clothing,393.67,0.0,8,Los Angeles,2023-02-10 23:00:00
+985,Electronics,234.79,0.0,8,Los Angeles,2023-02-11 00:00:00
+986,Groceries,134.06,15.0,4,New York,2023-02-11 01:00:00
+987,Electronics,210.01,5.0,9,Chicago,2023-02-11 02:00:00
+988,Clothing,73.76,0.0,9,New York,2023-02-11 03:00:00
+989,Clothing,290.87,5.0,9,Los Angeles,2023-02-11 04:00:00
+990,Furniture,301.54,15.0,4,Los Angeles,2023-02-11 05:00:00
+991,Furniture,464.99,0.0,7,Chicago,2023-02-11 06:00:00
+992,Toys,406.57,5.0,1,New York,2023-02-11 07:00:00
+993,Clothing,168.9,0.0,7,Phoenix,2023-02-11 08:00:00
+994,Furniture,238.37,5.0,7,Los Angeles,2023-02-11 09:00:00
+995,Toys,82.03,0.0,7,Phoenix,2023-02-11 10:00:00
+996,Toys,399.74,0.0,2,Los Angeles,2023-02-11 11:00:00
+997,Groceries,461.69,15.0,4,New York,2023-02-11 12:00:00
+998,Clothing,296.07,10.0,1,Chicago,2023-02-11 13:00:00
+999,Toys,277.61,20.0,3,Houston,2023-02-11 14:00:00
+1000,Toys,68.57,5.0,4,Los Angeles,2023-02-11 15:00:00
