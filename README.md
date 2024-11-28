@@ -31,5 +31,103 @@ The code is tested for images, pretrained and quantized neural network models an
 7. Medical cost personal datasets - https://www.kaggle.com/datasets/mirichoi0218/insurance 
 8. Numerically generated ECG signal - https://www.kaggle.com/datasets/ahmadsaeed1007/ecg-signal
 
-### Execution
-Update the 'fileName' variable in the 'main_time.cpp' file. The variable indictes the path of the dataset in the system. Compile the main_time file. Simply execute ./main_time to run the code.
+Dummy data generation using script - Run the command "gen_data.py". This script will generate the "data.csv" file which can be given as the input to the SCE code.
+
+---
+
+### Execution Instructions
+
+#### Step 1: Update the Dataset Path
+- Open the `main_time.cpp` file.
+- Locate the `fileName` variable and update it with the absolute path of the dataset in your system.
+
+#### Step 2: Compile the Code
+Run the following command to compile the program:
+
+```bash
+make
+```
+
+#### Step 3: Run the Program
+Execute the compiled file using:
+
+```bash
+./main_time
+```
+
+---
+
+### Decryption and Decompression Verification
+
+#### Step 1: Update the Dataset Path
+- Open the `main_time_verification.cpp` file.
+- Locate the `fileName` variable and update it with the absolute path of the dataset in your system.
+
+#### Step 2: Update the Makefile
+- Open the `makefile` and update the `project` variable to `main_time_verification`.
+
+#### Step 3: Compile the Code
+Run the following command to compile:
+
+```bash
+make
+```
+
+#### Step 4: Run the Verification Program
+Execute the verification program:
+
+```bash
+./main_time_verification
+```
+
+The program confirms that the decompression and decryption logic work correctly.
+
+---
+
+### NIST Verification for Randomness
+
+#### Step 1: Download the NIST Suite
+- Visit the [NIST Random Bit Generation Documentation](https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software) and download the suite.
+
+#### Step 2: Enable NIST Data Generation
+- Open the `main_time.cpp` file.
+- Uncomment the lines indicated for NIST test data generation.
+
+#### Step 3: Compile the Program
+Run the following command:
+
+```bash
+make
+```
+
+#### Step 4: Run the Program
+Execute the program:
+
+```bash
+./main_time
+```
+
+#### Step 5: Run the NIST Tests
+- Use the output data with the NIST suite to verify randomness.
+- The code passes all NIST tests when a sufficient number of samples are provided.
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
