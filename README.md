@@ -122,9 +122,9 @@ Execute the program:
 
 ### Comparison with AES
 
-### Run the command "./run.sh"
+#### Run the command "./run.sh"
 
-### Steps to Execute the Bash Script `run.sh` 
+#### Details of the Bash Script `run.sh` 
 1. **Compilation:**
    - The script compiles both `aes.cpp` and `main_time.cpp` (SCE algorithm) files using their respective `Makefile`s.
    - Ensures both executables (`aes` and `main_time`) are properly built.
