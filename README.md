@@ -54,6 +54,11 @@ Execute the compiled file using:
 ```bash
 ./main_time
 ```
+
+The script produces output similar to this -
+![cryptoCompressed](https://github.com/user-attachments/assets/f6d148aa-6d16-4693-b8b9-092b40a0c38c)
+
+
 The crypto-compressed datastream is saved in the file "crypto_compressed_data.dat"
 ---
 
@@ -130,7 +135,12 @@ Execute the program:
 
 3. **Performance Analysis:**
    - Calculates the percentage improvement of the `main_time` algorithm over AES.
-   - Outputs the improvement percentage 
+   - Outputs the improvement percentage
+
+The script produces output similar to this -
+![aes](https://github.com/user-attachments/assets/831f1911-2d12-4362-b4cf-9335345f08d6)
+
+   
 ---
 
 
