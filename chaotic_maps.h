@@ -12,6 +12,7 @@ arrWrap_ch_3D* lorentzMap(int row, int col);
 arrWrap_ch* lorentzMap2D(int row, int col);
 float *temp_map(int row, int col);
 string chaos(int row, string dataCompressed);
+
 string dechaos(int row, string dataCompressed);
 //arrWrap_ch* chirikov_fast(int row, int col);
 //float sin_fast(float x);

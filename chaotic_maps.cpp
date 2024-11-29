@@ -213,184 +213,153 @@ arrWrap_ch* lorentzMap2D(int row, int col)
 
 
 float mfmod(float x,float y) { float a; return ((a=x/y)-(int)a)*y; }
-string chaos(int row, string dataCompressed)
-{
-   int col = 1;
-   float sigma = 10;
-   float R = 28;
-   float b = -2.67;
-   arrWrap_ch* arry = new arrWrap_ch[row+1];
-   string out;
-   arrWrap_ch* ary = new arrWrap_ch[row+1];
 
-   (arry)->arr[0] = 0;
-   (arry)->arr[1] = 1;
-   float temp = 0;
-   int tr = 10;
-   float tempx,tempy;
-   
-   //Generation of a 3D Lorenz map
-   for(int i=0; i<tr; i++)
-   {
-   
-    for(int j=0; j<tr; j++)
-    {
-    
-        //cout << i*col+j << endl;
-        double x = ((arry+i*col+j)->arr[0]) ;
-        double y = ((arry+i*col+j)->arr[1]) ; 
-        double z = (temp) ; 
-        //cout << x << " " << y << " " << z << endl;
-        (arry+i*col+j+1)->arr[0] = mfmod( (sigma * ( y - x )),10^34 ) ;
-        (arry+i*col+j+1)->arr[1] = mfmod( (R*x) - (x*z) - y  , 10^34);
-        temp =  fmod((x*y) - (b*z), 10^34)  ;
-        tempx=(arry+i*col+j+1)->arr[0];
-        tempy=(arry+i*col+j+1)->arr[1];
-      }
-      
+
+string dechaos(int row, string dataCompressed) {
+    int col = 1;
+    float sigma = 10.0;
+    float R = 28.0;
+    float b = -2.67;
+
+    arrWrap_ch* arry = new arrWrap_ch[row + 1];
+    string out;
+    arrWrap_ch* ary = new arrWrap_ch[row + 1];
+
+    (arry)->arr[0] = 0;
+    (arry)->arr[1] = 1;
+    float temp = 0;
+    int tr = 10;
+    float tempx, tempy;
+
+    // Generate a 3D Lorenz map
+    for (int i = 0; i < tr; i++) {
+        for (int j = 0; j < tr; j++) {
+            double x = ((arry + i * col + j)->arr[0]);
+            double y = ((arry + i * col + j)->arr[1]);
+            double z = temp;
+
+            (arry + i * col + j + 1)->arr[0] = fmod((sigma * (y - x)), pow(10, 34));
+            (arry + i * col + j + 1)->arr[1] = fmod(((R * x) - (x * z) - y), pow(10, 34));
+            temp = fmod(((x * y) - (b * z)), pow(10, 34));
+            tempx = (arry + i * col + j + 1)->arr[0];
+            tempy = (arry + i * col + j + 1)->arr[1];
+        }
     }
-   
-   //Store the last map values, to skip the transient effects
-   (arry+0)->arr[0] = tempx ;
-   (arry+0)->arr[1] = tempy;
 
-   // Start the actual iterations
-   int8_t ols = 0;
-   for(int i=0; i<row; i++)
-   {
-        float x = (arry+i)->arr[0] ;
-        float y = (arry+i)->arr[1] ; 
-        float z = temp ; 
-        (arry+i+1)->arr[0] = mfmod( (sigma * ( y - x )),10^34 ) ;
-        (arry+i+1)->arr[1] = mfmod( ((R*x) - (x*z) - y ),10^34 );
-        temp = fmod( ((x*y) - (b*z)),10^34 ) ;
-     
-        //Convert the generated values to int and perform XOR
-        long temp1 = (arry+i)->arr[0] * pow(10,14);
-        int mod = 128;   
+    (arry + 0)->arr[0] = tempx;
+    (arry + 0)->arr[1] = tempy;
+
+    int8_t ols = 0;
+
+    for (int i = 0; i < row; i++) {
+        float x = (arry + i)->arr[0];
+        float y = (arry + i)->arr[1];
+        float z = temp;
+
+        (arry + i + 1)->arr[0] = fmod((sigma * (y - x)), pow(10, 34));
+        (arry + i + 1)->arr[1] = fmod(((R * x) - (x * z) - y), pow(10, 34));
+        temp = fmod(((x * y) - (b * z)), pow(10, 34));
+
+        long temp1 = (arry + i)->arr[0] * pow(10, 14);
+        int mod = 128;
         int8_t out1 = temp1 % mod;
-        
-        // Generation of 2D Henon map   
-        float a=1.4;
-        (ary)->arr[0]=0.1;
-        (ary)->arr[1]=0.3;   
-        float bb=0.3;
-        (ary+i+1)->arr[0] = 1-a*pow((ary+i)->arr[0],2)+(ary+i)->arr[1];
-        (ary+i+1)->arr[1] = bb*(ary+i)->arr[0];
-        //Convert the generated values to int and perform XOR 
-        long temp2 = (ary+i)->arr[0] * pow(10,14);
+
+        float a = 1.4;
+        float bb = 0.3;
+        (ary)->arr[0] = 0.1;
+        (ary)->arr[1] = 0.3;
+
+        (ary + i + 1)->arr[0] = 1 - a * pow((ary + i)->arr[0], 2) + (ary + i)->arr[1];
+        (ary + i + 1)->arr[1] = bb * (ary + i)->arr[0];
+
+        long temp2 = (ary + i)->arr[0] * pow(10, 14);
         int8_t out2 = temp2 % mod;
-        //cout << +out1 << endl;
-        // Actual encryption starts from here
-        int8_t t= int8_t(dataCompressed[i]) ^ out1;
-        
+
+        int8_t t = int8_t(dataCompressed[i]) - ols;
+        t = t ^ out2;
+        t = t ^ out1;
+
+        ols = dataCompressed[i];
+        out += t;
+    }
+
+    return out;
+}
+
+
+
+
+
+string chaos(int row, string dataCompressed) {
+    int col = 1;
+    float sigma = 10.0;
+    float R = 28.0;
+    float b = -2.67;
+
+    arrWrap_ch* arry = new arrWrap_ch[row + 1];
+    string out;
+    arrWrap_ch* ary = new arrWrap_ch[row + 1];
+
+    (arry)->arr[0] = 0;
+    (arry)->arr[1] = 1;
+    float temp = 0;
+    int tr = 10;
+    float tempx, tempy;
+
+    // Generate a 3D Lorenz map for warm up
+    for (int i = 0; i < tr; i++) {
+        for (int j = 0; j < tr; j++) {
+            double x = ((arry + i * col + j)->arr[0]);
+            double y = ((arry + i * col + j)->arr[1]);
+            double z = temp;
+
+            (arry + i * col + j + 1)->arr[0] = fmod((sigma * (y - x)), pow(10, 34));
+            (arry + i * col + j + 1)->arr[1] = fmod(((R * x) - (x * z) - y), pow(10, 34));
+            temp = fmod(((x * y) - (b * z)), pow(10, 34));
+            tempx = (arry + i * col + j + 1)->arr[0];
+            tempy = (arry + i * col + j + 1)->arr[1];
+        }
+    }
+
+    (arry + 0)->arr[0] = tempx;
+    (arry + 0)->arr[1] = tempy;
+
+    int8_t ols = 0;
+
+    for (int i = 0; i < row; i++) {
+        float x = (arry + i)->arr[0];
+        float y = (arry + i)->arr[1];
+        float z = temp;
+
+        (arry + i + 1)->arr[0] = fmod((sigma * (y - x)), pow(10, 34));
+        (arry + i + 1)->arr[1] = fmod(((R * x) - (x * z) - y), pow(10, 34));
+        temp = fmod(((x * y) - (b * z)), pow(10, 34));
+
+        long temp1 = (arry + i)->arr[0] * pow(10, 14);
+        int mod = 128;
+        int8_t out1 = temp1 % mod;
+
+        float a = 1.4;
+        float bb = 0.3;
+        (ary)->arr[0] = 0.1;
+        (ary)->arr[1] = 0.3;
+
+        (ary + i + 1)->arr[0] = 1 - a * pow((ary + i)->arr[0], 2) + (ary + i)->arr[1];
+        (ary + i + 1)->arr[1] = bb * (ary + i)->arr[0];
+
+        long temp2 = (ary + i)->arr[0] * pow(10, 14);
+        int8_t out2 = temp2 % mod;
+
+        int8_t t = int8_t(dataCompressed[i]) ^ out1;
         t = t ^ out2;
         t = t + ols;
         ols = t;
-        out += (t);
-        
+
+        out += t;
     }
-   return out; 
+
+    return out;
 }
-
-
-string dechaos(int row, string dataCompressed)
-{
-   cout << "***************************************" << endl;
-   int col = 1;
-   float sigma = 10;
-   //actual sig
-   //actual R was 28
-   float R = 28;
-   float b = 2.67;
-   arrWrap_ch* arry = new arrWrap_ch[row+1];
-   // arrWrap_ch* out = new arrWrap_ch[col*row+1];
-    string out;
-   arrWrap_ch* ary = new arrWrap_ch[row+1];
-
-   (arry)->arr[0] = 5;
-   (arry)->arr[1] = 6;
-   float temp = 5;
-   int tr = 10;
-   float tempx,tempy;
-   
-   //Generation of a 3D Lorenz map
-   for(int i=0; i<tr; i++){
-    for(int j=0; j<tr; j++){
-        //cout << i*col+j << endl;
-        double x = ((arry+i*col+j)->arr[0]) ;
-        double y = ((arry+i*col+j)->arr[1]) ; 
-        double z = (temp) ; 
-        //cout << x << " " << y << " " << z << endl;
-        (arry+i*col+j+1)->arr[0] = (sigma * ( y - x )) ;
-        (arry+i*col+j+1)->arr[1] = ((R*x) - (x*z) - y );
-        temp =  ((x*y) - (b*z))  ;
-        tempx=(arry+i*col+j+1)->arr[0];
-        tempy=(arry+i*col+j+1)->arr[1];
-      }
-    }
-   
-   //Store the last map values, to skip the transient effects
-   (arry+0)->arr[0] = tempx ;
-   (arry+0)->arr[1] =  tempy;
-
-   // Start the actual iterations
-   int8_t ols = 0;
-   for(int i=0; i<row; i++){
-        float x = (arry+i)->arr[0] ;
-        float y = (arry+i)->arr[1] ; 
-        float z = temp ; 
-        (arry+i+1)->arr[0] = (sigma * ( y - x )) ;
-        (arry+i+1)->arr[1] = ((R*x) - (x*z) - y );
-        temp =  ((x*y) - (b*z))  ;
-     
-        //Convert the generated values to int and perform XOR
-        long temp1 = (arry+i)->arr[0] * pow(10,14);
-        int mod = 128;   
-        int8_t out1 = temp1 % mod;
-        
-        
-        // Generation of 2D Henon map   
-        float a=1.4;
-        (ary)->arr[0]=0.1;
-        (ary)->arr[1]=0.3;   
-        float bb=0.3;
-        (ary+i+1)->arr[0] = 1-a*pow((ary+i)->arr[0],2)+(ary+i)->arr[1];
-        (ary+i+1)->arr[1] = bb*(ary+i)->arr[0];
-        //Convert the generated values to int and perform XOR 
-        long temp2 = (ary+i)->arr[0] * pow(10,14);
-        int8_t out2 = temp2 % mod;
-        
-        // Actual encryption
-        int8_t t = int8_t(dataCompressed[i]) - ols;
-        t= t ^ out1;
-        t = t ^ out2;
-        
-        ols = dataCompressed[i] ;
-        out += (t);
-    }
-   return out; 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
