@@ -58,8 +58,8 @@ Execute the compiled file using:
 The script produces output similar to this -
 ![cryptoCompressed](https://github.com/user-attachments/assets/f6d148aa-6d16-4693-b8b9-092b40a0c38c)
 
-
 The crypto-compressed datastream is saved in the file "crypto_compressed_data.dat"
+
 ---
 
 
