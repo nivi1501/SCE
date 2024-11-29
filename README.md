@@ -54,8 +54,10 @@ Execute the compiled file using:
 ```bash
 ./main_time
 ```
-
+The crypto-compressed datastream is saved in the file "crypto_compressed_data.dat"
 ---
+
+
 
 ### Decryption and Decompression Verification
 
@@ -113,7 +115,23 @@ Execute the program:
 
 ---
 
+### Comparison with AES
 
+### Run the command "./run.sh"
+
+### Steps to Execute the Bash Script `run.sh` 
+1. **Compilation:**
+   - The script compiles both `aes.cpp` and `main_time.cpp` (SCE algorithm) files using their respective `Makefile`s.
+   - Ensures both executables (`aes` and `main_time`) are properly built.
+
+2. **Execution:**
+   - Executes both `aes` and `main_time` binaries.
+   - Captures the time taken for each execution as printed in the command line output.
+
+3. **Performance Analysis:**
+   - Calculates the percentage improvement of the `main_time` algorithm over AES.
+   - Outputs the improvement percentage 
+---
 
 
 
